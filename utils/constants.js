@@ -1,0 +1,1 @@
+export const API_URL = 'https://abcd-apis.herokuapp.com/api'

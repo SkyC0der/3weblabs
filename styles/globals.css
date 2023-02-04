@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('./Modal.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #182F43;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+}
+
+.about-list::before {
+  background: url('/assets/images/icons/badge.png');
+  height: 16px;
+  width: 33px;
+  position: absolute;
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mobile-menu {
+  transition-timing-function: ease;
+  transition: all 3s;
+}
+
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img.arrow {
+  transition-timing-function: ease;
+  transition: all 0.5s;
+}
+
+.stackite-mob:hover img.arrow {
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+.stackite-mob:hover img.img {
+  display: flex;
+  height: 5rem;
+  float: left;
+}
+
+.stackite-mob {
+  transition-timing-function: ease;
+  transition: all 1s;
+}
+
+.stackite-mob:hover {
+  height: 15rem;
+}
+
+.stackitem {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  transition: all 1s ease-in-out;
+}
+
+div.main-container:hover div.stackitem img.hidden {
+  display: flex;
+  transform: rotate(90deg);
+}
+
+div.main-container:hover div.stackitem p.vertical {
+  transform: rotate(0deg);
+  writing-mode: vertical-rl;
+  text-align: start;
+}
+
+
+
+div.main-container:hover {
+  /* height: 20rem; */
+  width: 28rem;
+}
+
+div.main-container:hover div.stackitem {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  flex-direction: column;
+  background-color: #fff;
+  z-index: 5;
+  cursor: pointer;
+  border-radius: 6px;
+  transform-origin: center;
+}
+
+
+div.stackitem:hover {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  transform: rotate(-90deg);
+  writing-mode: vertical-rl;
+  flex-direction: column;
+  background-color: #fff;
+  z-index: 5;
+  cursor: pointer;
+  border-radius: 6px;
+  transform-origin: center;
+  /* margin-right: 20rem; */
+}
