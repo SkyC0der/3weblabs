@@ -46,7 +46,7 @@ export default function BlogPosts() {
 
       <div className="w-screen">
         <div className="flex mx-24 p-14 py-14rounded-3xl mt-[0rem] sm:mx-4 sm:flex-col justify-end">
-          <SecondaryButton className="">Apply as a Writter</SecondaryButton>
+          <SecondaryButton className="">Apply as a Writer</SecondaryButton>
           <SecondaryButton className="sm:mt-4">Sign In</SecondaryButton>
 
 

@@ -12,7 +12,7 @@ type ButtonProps = {
 
 export default function Button(props: ButtonProps ): any {
   return (
-    <button {...props} className={`bg-primary text-white mx-2 bg-blue-700 rounded-l-lg rounded-r-lg p-3 px-6 font-light flex items-center justify-center ${props.className}`} type={props.type}>
+    <button {...props} className={`bg-primary text-white mx-2 bg-green-700 rounded-l-lg rounded-r-lg p-3 px-6 font-light flex items-center justify-center ${props.className}`} type={props.type}>
       {props.loading && <Spinner />}
       {props.children}</button>
   )

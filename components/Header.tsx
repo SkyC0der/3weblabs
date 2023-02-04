@@ -29,8 +29,13 @@ export default function Header() {
               </Link>
             </span>
             <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
-              <Link href="/for-developers">
+              <Link href="/openbuild">
                 OpenBuild
+              </Link>
+            </span>
+            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+              <Link href="/openbuild">
+                About
               </Link>
             </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">

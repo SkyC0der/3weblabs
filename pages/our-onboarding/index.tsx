@@ -1,6 +1,7 @@
 import React from "react";
 import SEO from "../../components/SEO";
 import Button from "../../components/Button/Primary";
+import SecondaryButton from "../../components/Button/Secondary";
 import { useRouter } from "next/router";
 import TitleCard from "../../components/TitleCard";
 import Link from "next/link";
@@ -11,7 +12,7 @@ export default function Onboarding() {
   const { pathname, push } = useRouter();
 
   return (
-    <div className="container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+    <div className="">
       <SEO
         title="Our Onboarding Process"
         description="Getting Started to Work with Us"
@@ -25,21 +26,24 @@ export default function Onboarding() {
         <Button onClick={() => push('/contact')} className="sm:m-0 sm:my-2">Hire Us</Button>
       </div> */}
 
-      <div className="flex space-between items-center">
+      <div className="flex space-between items-center container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
         <div className="w-7/12">
-          <h1 className="text-4xl font-semibold sm:text-2xl my-2">Building for Africa in the Open 🚀</h1>
-          <p>
+          <h1 className="text-4xl font-semibold sm:text-2xl my-2">
+            Building for Africa in the Open 🚀
+          </h1>
+          <p className="w-7/12 my-5 py-6">
             The challenges in Africa requires builders. Openbuild is powered by
             the African Blockchain Centre for Developers with a goal to empower
             builders with the tools and resources to build on the continent.
           </p>
-          <div className = "flex">
+          <div className="flex">
             <Button onClick={() => push("/openbuild")}>
               What is OpenBuild?
             </Button>
-            <Button onClick={() => push("/openbuild")}>
+            {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
               Join Our Community
-            </Button>
+            </Button> */}
+            <Link href="/openbuild"><span className="bg-transparent text-green-500 mx-2 border border-green-500 rounded-l-lg rounded-r-lg p-3 px-6 font-light flex items-center justify-center "> Join Our Community</span></Link>
           </div>
         </div>
         <div className="w-5/12">
@@ -47,85 +51,118 @@ export default function Onboarding() {
         </div>
       </div>
 
-      <div>
-        <div className="text-center">
-          <h2 className="text-4xl">Who is OpenBuilD for?</h2>
-          <p>
+      <div className="my-12 bg-gradient-to-r from-green-400 to-teal-500 container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+        <div className="text-center py-5">
+          <h2 className="text-4xl font-semibold my-5">Who is OpenBuilD for?</h2>
+          <p className="text-center w-8/12 mx-auto my-7">
             OpenBuilD is for beginners hungry to learn more about web3, startups
             who would want to build teams to build with tools from our campaigns
             and creators looking to form teams that could become startup ideas.
           </p>
         </div>
-        <div className="flex space-between align-center">
+        <div className="flex justify-between items-center">
           <TitleCard
             title="Beginners"
             content="Beginners trying to learn more about web3"
           />
           <TitleCard
-            title="Beginners"
-            content="Beginners trying to learn more about web3"
+            title="Startups"
+            content="Startups looking for a fast way to learn & build"
           />
           <TitleCard
-            title="Beginners"
-            content="Beginners trying to learn more about web3"
+            title="Creators"
+            content="Creators who want to build an impressive portfolio of projects"
           />
         </div>
       </div>
 
-      <div>
-        <div>
-          <h2>Latest Campaigns</h2>
-          <p>Explore current campaigns. Learn, Build and Win amazing prizes.</p>
+      <div className="container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+        <div className="text-center">
+          <h2 className="text-4xl font-semibold my-5">Latest Campaigns</h2>
+          <p className="mb-8">
+            Explore current campaigns. Learn, Build and Win amazing prizes.
+          </p>
         </div>
-        <div>
+        <div className="flex mt-12 my-8 gap-8 justify-between items-center">
+          <Link href="/">
+            <BlogCard />
+          </Link>
+
           <Link href="/">
             <BlogCard />
           </Link>
           <Link href="/">
             <BlogCard />
           </Link>
-          <Link href="/">
-            <BlogCard />
-          </Link>
         </div>
-        <Button onClick={() => push("/openbuild")}>Join Our Community</Button>
+        <div className="text-center mx-auto mt-12 flex justify-center">
+          <Button onClick={() => push("/openbuild")}>Join Our Community</Button>
+        </div>
       </div>
 
-      <div>
-        <div>
-          <h3>What Developers are saying</h3>
-          <p>Get inspired by these stories</p>
+      <div className="container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+        <div className="grid ">
+          <div className="col-span-2 flex justify-between items-center">
+            <div className="text-center w-3/6">
+              <h3 className="text-4xl font-semibold my-5">
+                What Developers are saying
+              </h3>
+              <p>Get inspired by these stories</p>
+            </div>
+            <div className="w-3/6">
+              <TestimonialCard />
+            </div>
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
         </div>
-        <div>
-          <TestimonialCard />
-        </div>
-        <div>
-          <TestimonialCard />
-        </div>
-        <div>
-          <TestimonialCard />
-        </div>
-        <img src="/assets/images/bg/rod.svg" alt="greed rod background" />
+        {/* <img src="/assets/images/bg/rod.svg" alt="greed rod background" /> */}
       </div>
 
-      <div>
-        <h3>Awesome Group Of Partners</h3>
-        <div>
-          <div>
-            <img src="/assets/images/partners/Amazon.png" alt="" />
+      <div className="container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+        <h3 className="text-center text-3xl font-semibold my-6 mb-12">
+          Awesome Group Of Partners
+        </h3>
+        <div className="grid gap-3 grid-cols-5 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 mx-auto place-items-center items-center w-4/5 ">
+          <div className="w-3/5">
+            <img
+              className="w-full"
+              src="/assets/images/partners/Amazon.png"
+              alt=""
+            />
           </div>
-          <div>
-            <img src="/assets/images/partners/Google.png" alt="" />
+          <div className="w-3/5">
+            <img
+              className="w-full"
+              src="/assets/images/partners/Google.png"
+              alt=""
+            />
           </div>
-          <div>
-            <img src="/assets/images/partners/Uber.png" alt="" />
+          <div className="w-3/5">
+            <img
+              className="w-full"
+              src="/assets/images/partners/Uber.png"
+              alt=""
+            />
           </div>
-          <div>
-            <img src="/assets/images/partners/Netflix.png" alt="" />
+          <div className="w-3/5">
+            <img
+              className="w-full"
+              src="/assets/images/partners/Netflix.png"
+              alt=""
+            />
           </div>
-          0
-          <div>
-            <img src="/assets/images/partners/microsoft.png" alt="" />
+
+          <div className="w-3/5">
+            <img
+              className="w-full"
+              src="/assets/images/partners/microsoft.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
