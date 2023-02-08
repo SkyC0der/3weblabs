@@ -29,13 +29,13 @@ export default function Header() {
               </Link>
             </span>
             <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
-              <Link href="/openbuild">
-                OpenBuild
+              <Link href="/our-onboarding">
+                OpenBuilD
               </Link>
             </span>
             <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
               <Link href="/openbuild">
-                About
+                About OpenBuilD
               </Link>
             </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
@@ -43,11 +43,11 @@ export default function Header() {
               Blog
             </Link>
           </span>
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+            {/* <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
             <Link href="/our-onboarding">
                 Explore
               </Link>
-            </span>
+            </span> */}
           </div>
         <div className="flex items-center sm:hidden md:hidden">
           <Button onClick={() => push('/contact')} className='font-lighttext-white bg-blue-700'>Hire Us</Button>
@@ -105,14 +105,14 @@ export default function Header() {
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/for-developers">
-                For Developers
+              <Link href="/openbuild">
+                About OpenBuilD
               </Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
                 <Link href="/our-onboarding">
-                  Explore
+                  OpenBuilD
                 </Link>
             </li>
 

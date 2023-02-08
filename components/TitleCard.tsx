@@ -7,15 +7,16 @@ type TitleCardProps = {
 const TitleCard = (props: TitleCardProps) => {
   const { title, content } = props;
   return (
-    <div className="flex justify-between items-center bg-white bg-opacity-30 p-4 rounded-2xl m-6 ">
-      <div>
+    <div className="flex justify-start items-center bg-white bg-opacity-30 p-4 rounded-2xl m-2 ">
+      <div className="mr-2 w-1/6">
         <img
+        className="w-full"
           src="/assets/images/illustrations/titlecard.svg"
           alt="green placeholder illustration"
         />
       </div>
-      <div className="mx-4">
-        <h3 className="text-2xl font-semibold my-4">{title}</h3>
+      <div className="mx-2 w-5/6">
+        <h3 className="text-xl font-semibold my-3">{title}</h3>
         <p>{content}</p>
       </div>
     </div>

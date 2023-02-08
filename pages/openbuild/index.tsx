@@ -8,7 +8,8 @@ const OpenBuild = () => {
           What is OpenBuilD?
         </h2>
       </div>
-      <div className="my-12 container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4">
+      {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
+      <div className="my-12 container mx-auto px-5 ">
         <p className="my-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
@@ -55,47 +56,41 @@ const OpenBuild = () => {
           totam praesentium impedit natus laborum. In est vel repellat fugit?
         </p>
       </div>
-      <div>
+      <div className="container mx-auto px-5 mt-10">
         <h3 className="text-center text-3xl font-semibold my-6 mb-12">
           Awesome Group Of Partners
         </h3>
-        <div className="grid gap-3 grid-cols-5 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 mx-auto place-items-center items-center w-4/5 ">
-          <div className="w-3/5">
+        <div className="grid pt-8 gap-8 grid-cols-5 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 mx-auto place-items-center items-center  ">
+          <div className="w-4/5">
             <img
-              className="w-full"
-              src="/assets/images/partners/Amazon.png"
+              className="w-full h-auto object-cover"
+              src="/assets/images/partners/abcd.png"
               alt=""
             />
           </div>
-          <div className="w-3/5">
+          <div className="w-4/5">
             <img
-              className="w-full"
-              src="/assets/images/partners/Google.png"
+              className="w-full h-auto object-cover"
+              src="/assets/images/partners/dapp360.png"
               alt=""
             />
           </div>
-          <div className="w-3/5">
+          <div className="w-4/5">
             <img
-              className="w-full"
-              src="/assets/images/partners/Uber.png"
+              className="w-full h-auto object-cover"
+              src="/assets/images/partners/poa.png"
               alt=""
             />
           </div>
-          <div className="w-3/5">
+          <div className="w-4/5">
             <img
-              className="w-full"
-              src="/assets/images/partners/Netflix.png"
+              className="w-full h-auto bg-slate-700 object-cover"
+              src="/assets/images/partners/empowa.png"
               alt=""
             />
           </div>
 
-          <div className="w-3/5">
-            <img
-              className="w-full"
-              src="/assets/images/partners/microsoft.png"
-              alt=""
-            />
-          </div>
+         
         </div>
       </div>
     </div>

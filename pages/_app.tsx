@@ -9,8 +9,8 @@ import Footer from '../components/Footer'
 function MyApp({ Component, pageProps }: AppProps) {
   const { pathname } = useRouter();
 
-  return <main className={`z-[-1] `}>
-  {/* // bg-cover ${pathname === '' || pathname === '/' ? "bg-[url('/assets/images/bg/mobile.png')]" : "bg-[url('/assets/images/bg/general.png')]"} */}
+  return <main className={`z-[-1]  bg-cover ${pathname === '' || pathname === '/' ? "bg-[url('/assets/images/bg/mobile.png')]" : ""} `}>
+{/* bg-[url('/assets/images/bg/general.png')] */}
   <Header />
     {/* <div className="absolute z-[-1] bg-cover h-screen w-screen bg-[url('/assets/images/bg/Banner.png')] 3xl:bg-[length:100%_100%] sm:bg-cover">
     </div> */}
