@@ -2,13 +2,13 @@ import React from "react";
 // import { twMerge } from "tailwind-merge";
 
 type ButtonProps = {
-  children: any;
-  className?: string;
-  onClick?: (e:any) => void;
-  loading?: boolean;
-  disabled?: boolean;
-};
-
+  children: any, className ?: string,
+   onClick?: (e: any) => void,
+   loading?: boolean,
+   type?: any,
+   disabled?: boolean
+ }
+ 
 export default function Button(props: ButtonProps): any {
   const classes: any =  `bg-primary text-white mx-2 bg-green-700 rounded-l-lg rounded-r-lg p-3 font-light flex items-center justify-center ${
       props.className || ""

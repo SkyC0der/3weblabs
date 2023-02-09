@@ -26,7 +26,8 @@ export default function Onboarding() {
       </div> */}
 {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
-        <div className="w-full">
+       <div className="flex lg:flex-col">
+       <div className="w-full">
           <h1 className="text-3xl font-semibold sm:text-3xl my-3 pt-6">
             Building for Africa in the Open 🚀
           </h1>
@@ -51,6 +52,7 @@ export default function Onboarding() {
           <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold  absolute left-9 bottom-4">#Events</div>
           <img className="w-full" src="/assets/images/bg/hero.svg" alt="" />
         </div>
+       </div>
       </div>
       {/* px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
        <div className="my-16  bg-gradient-to-r from-green-400 to-teal-500 container mx-auto px-5mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
