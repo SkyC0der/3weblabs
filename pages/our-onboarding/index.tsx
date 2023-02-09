@@ -37,7 +37,7 @@ export default function Onboarding() {
             builders with the tools and resources to build on the continent.
           </p>
           <div className="flex justify-between max-w-sm items-center text-base">
-            <Button className="bg-[#30D72D] ml-0 text-sm" onClick={() => push("/openbuild")}>
+            <Button className="bg-[#30D72D] bg-green-700 ml-0 text-sm" onClick={() => push("/openbuild")}>
               What is OpenBuild?
             </Button>
             {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
@@ -101,7 +101,7 @@ export default function Onboarding() {
           </Link>
         </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
-          <Button className="bg-[#30d72d2c] text-[#30d72d] lg:text-white font-semibold border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
+          <Button className="bg-[#30d72d2c] text-[#30d72d]  font-semibold border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
         </div>
       </div>
 
