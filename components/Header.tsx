@@ -17,7 +17,7 @@ export default function Header() {
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/">
-          <img src="/assets/images/logo/Logo-2x.png" alt="3rdweblabs" className="h-12 w-auto" />
+          <img src={pathname == '/our-onboarding' ? "/assets/images/logo/logo_dark.jpeg" : "/assets/images/logo/Logo-2x.png"} alt="3rdweblabs" className="h-12 w-auto" />
           </Link>
           </div>
 

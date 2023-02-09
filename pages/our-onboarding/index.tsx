@@ -10,7 +10,6 @@ import TestimonialCard from "../../components/TestimonialCard";
 
 export default function Onboarding() {
   const { pathname, push } = useRouter();
-
   return (
     <div className="bg-transparent">
       <SEO
@@ -26,7 +25,7 @@ export default function Onboarding() {
         <Button onClick={() => push('/contact')} className="sm:m-0 sm:my-2">Hire Us</Button>
       </div> */}
 {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
-      <div className="container mx-auto px-5 ">
+      <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="w-full">
           <h1 className="text-3xl font-semibold sm:text-3xl my-3 pt-6">
             Building for Africa in the Open 🚀
@@ -54,17 +53,17 @@ export default function Onboarding() {
         </div>
       </div>
       {/* px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
-       <div className="my-16  bg-gradient-to-r from-green-400 to-teal-500 container mx-auto px-5 max-xl:px-28 max-lg:px-20 max-3xl:px-40 max-xl:py-4 max-lg:py-4 md-max:py-8 3xl:py-4 ">
+       <div className="my-16  bg-gradient-to-r from-green-400 to-teal-500 container mx-auto px-5mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
         <div className="text-center py-5 relative">
-          <h2 className="text-3xl font-semibold my-4">Who is OpenBuilD for?</h2>
-          <p className="text-center mx-auto my-7 pt-8">
+          <h2 className="lg:text-3xl text-4xl font-semibold my-4">Who is OpenBuilD for?</h2>
+          <p className="text-center mx-auto my-7 pt-8 max-w-3xl">
             OpenBuilD is for beginners hungry to learn more about web3, startups
             who would want to build teams to build with tools from our campaigns
             and creators looking to form teams that could become startup ideas.
           </p>
-          <div className="bg-[#182F43] absolute w-20 h-1 top-20 left-28"></div>
+          <div className="bg-[#182F43] absolute w-24 h-1 top-20 left-1/2 lg:left-28"></div>
         </div>
-        <div className=" grid gap-4 justify-between place-items-center">
+        <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
           <TitleCard
             title="Beginners"
             content="Beginners trying to learn more about web3"
@@ -80,14 +79,14 @@ export default function Onboarding() {
         </div>
       </div>
       {/* max-xl:px-28 max-lg:px-20 max-3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
-     <div className="sm:container mx-auto px-5 ">
+     <div className="sm:container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="text-center">
-          <h2 className="text-3xl font-semibold my-5">Latest Campaigns</h2>
+          <h2 className="lg:text-3xl text-4xl font-semibold my-5">Latest Campaigns</h2>
           <p className="mb-8">
             Explore current campaigns. Learn, Build and Win amazing prizes.
           </p>
         </div>
-        <div className="flex flex-col mt-12 my-8 gap-8 justify-between items-center">
+        <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
           <Link href="/">
             <BlogCard />
           </Link>
@@ -100,17 +99,17 @@ export default function Onboarding() {
           </Link>
         </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
-          <Button className="bg-[#30d72d2c] text-[#30D72D] border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
+          <Button className="bg-[#30d72d2c] text-[#fff] font-semibold border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
         </div>
       </div>
 
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
-      <div className="sm:container mx-auto px-5">
-        <div className="grid  relative pt-8">
-          <div className="absolute top-6 -left-9"><img src="/assets/images/bg/rod.svg" alt="" /></div>
+      <div className="sm:container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
+        <div className="grid grid-cols-2 sm:grid-cols-1  mx-auto place-items-center lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-3 relative pt-8">
+          <div className="absolute bottom-20 -left-9 -z-10 sm:top-0"><img src="/assets/images/bg/rod.svg" alt="" /></div>
           {/* <div className=" justify-between items-center"> */}
             <div className="text-center">
-              <h3 className="text-3xl font-semibold my-5">
+              <h3 className="lg:text-3xl text-4xl font-semibold my-5">
                 What Developers are saying
               </h3>
               <p>Get inspired by these stories</p>
@@ -129,11 +128,11 @@ export default function Onboarding() {
 
       </div>
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
-      <div className="container mx-auto px-5 mt-10">
+      <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <h3 className="text-center text-3xl font-semibold my-6 mb-12">
           Awesome Group Of Partners
         </h3>
-        <div className="grid pt-8 gap-8 grid-cols-5 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 mx-auto place-items-center items-center  ">
+        <div className="grid pt-8 gap-8 grid-cols-4 md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 mx-auto place-items-center items-center  ">
           <div className="w-4/5">
             <img
               className="w-full h-auto object-cover"
@@ -155,15 +154,13 @@ export default function Onboarding() {
               alt=""
             />
           </div>
-          <div className="w-4/5 bg-slate-700">
+          <div className="w-4/5">
             <img
-              className="w-full h-auto object-cover "
+              className="w-full h-auto bg-slate-700 object-cover"
               src="/assets/images/partners/empowa.png"
               alt=""
             />
           </div>
-
-         
         </div>
       </div>
       {/* Proceess */}

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../components/Button/Primary";
 import { useRouter } from "next/router";
+import ProfileCard from "../../components/ProfileCard";
 
 export default function About() {
 
@@ -9,7 +10,7 @@ export default function About() {
   return (
     <div>
       <div className="py-12 bg-[url('/assets/images/LTO.png')] bg-no-repeat bg-cover bg-center">
-        <h2 className="container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl my-2">
+        <h2 className="container text-center mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl my-2">
           OpenBuilD for LTO
         </h2>
         <div className="text-white text-center">
@@ -22,7 +23,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="my-12 container mx-auto px-5 ">
+      <div className="my-12 container mx-auto px-5  xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <p className="my-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
@@ -88,11 +89,23 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-5 mt-10">
+      <div className="container mx-auto px-5 py-8 mt-12 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
+      <h3 className="text-center text-3xl font-semibold my-6 mb-12">
+          Awesome Community Members
+        </h3>
+        <div className="grid grid-cols-4 sm:grid-cols-1  mx-auto place-items-center lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-3">
+
+        <ProfileCard name="Otobong Peter" role="Blockchain Developer" imgUrl="/assets/images/team.png"/>
+        <ProfileCard name="Otobong Peter" role="Blockchain Developer" imgUrl="/assets/images/team.png"/>
+        <ProfileCard name="Otobong Peter" role="Blockchain Developer" imgUrl="/assets/images/team.png"/>
+        <ProfileCard name="Otobong Peter" role="Blockchain Developer" imgUrl="/assets/images/team.png"/>
+        </div>
+      </div>
+      <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <h3 className="text-center text-3xl font-semibold my-6 mb-12">
           Awesome Group Of Partners
         </h3>
-        <div className="grid pt-8 gap-8 grid-cols-5 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 mx-auto place-items-center items-center  ">
+        <div className="grid pt-8 gap-8 grid-cols-4 md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 mx-auto place-items-center items-center  ">
           <div className="w-4/5">
             <img
               className="w-full h-auto object-cover"
