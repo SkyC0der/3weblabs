@@ -10,7 +10,7 @@ type ButtonProps = {
  }
  
 export default function Button(props: ButtonProps): any {
-  const classes: any =  `bg-primary text-white mx-2 bg-green-700 rounded-l-lg rounded-r-lg p-3 font-light flex items-center justify-center ${
+  const classes: any =  `bg-primary text-white mx-2 bg-blue-700 rounded-l-lg rounded-r-lg p-3 font-light flex items-center justify-center ${
       props.className || ""
     }`
   return (

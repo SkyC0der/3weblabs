@@ -26,9 +26,9 @@ export default function Onboarding() {
       </div> */}
 {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
-       <div className="flex lg:flex-col">
-       <div className="w-full">
-          <h1 className="text-3xl font-semibold sm:text-3xl my-3 pt-6">
+       <div className="flex lg:flex-col justify-between items-center ">
+       <div className="lg:w-full w-5/12">
+          <h1 className="text-4xl lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
             Building for Africa in the Open 🚀
           </h1>
           <p className="w-full my-5 py-2">
@@ -36,7 +36,7 @@ export default function Onboarding() {
             the African Blockchain Centre for Developers with a goal to empower
             builders with the tools and resources to build on the continent.
           </p>
-          <div className="flex justify-between items-center text-base">
+          <div className="flex justify-between max-w-sm items-center text-base">
             <Button className="bg-[#30D72D] ml-0 text-sm" onClick={() => push("/openbuild")}>
               What is OpenBuild?
             </Button>
@@ -46,10 +46,10 @@ export default function Onboarding() {
             <Link href="/openbuild"><span className="bg-transparent cursor-pointer text-green-500 mx-2 border border-green-500 rounded-l-lg rounded-r-lg p-3 text-sm font-light flex items-center justify-center "> Join Our Community</span></Link>
           </div>
         </div>
-        <div className="relative mt-5 py-3 uppercase">
-          <div className="from-green-200 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold  absolute top-4">#Hacks</div>
-          <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold  absolute right-3 top-8">#Builds</div>
-          <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold  absolute left-9 bottom-4">#Events</div>
+        <div className="relative w-5/12 lg:w-full mt-5 py-3 uppercase">
+          <div className="from-green-200 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute top-4">#Hacks</div>
+          <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute right-3 top-8">#Builds</div>
+          <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute left-9 bottom-4">#Events</div>
           <img className="w-full" src="/assets/images/bg/hero.svg" alt="" />
         </div>
        </div>
@@ -101,14 +101,14 @@ export default function Onboarding() {
           </Link>
         </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
-          <Button className="bg-[#30d72d2c] text-[#fff] font-semibold border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
+          <Button className="bg-[#30d72d2c] text-[#30d72d] lg:text-white font-semibold border-b border-[#30D72D]" onClick={() => push("/openbuild")}>Join Our Community</Button>
         </div>
       </div>
 
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="sm:container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="grid grid-cols-2 sm:grid-cols-1  mx-auto place-items-center lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-3 relative pt-8">
-          <div className="absolute bottom-20 -left-9 -z-10 sm:top-0"><img src="/assets/images/bg/rod.svg" alt="" /></div>
+          <div className="absolute bottom-28 -left-9 -z-10 sm:top-0"><img src="/assets/images/bg/rod.svg" alt="" /></div>
           {/* <div className=" justify-between items-center"> */}
             <div className="text-center">
               <h3 className="lg:text-3xl text-4xl font-semibold my-5">
