@@ -38,7 +38,7 @@ export default function Onboarding() {
           </p>
           <div className="flex justify-between max-w-sm items-center text-base">
             <Button className="bg-[#30D72D] bg-green-700 ml-0 text-sm" onClick={() => push("/openbuild")}>
-              What is OpenBuild?
+              About OpenBuilD
             </Button>
             {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
               Join Our Community
@@ -58,7 +58,7 @@ export default function Onboarding() {
        <div className="my-16  bg-gradient-to-r from-green-400 to-teal-500 container mx-auto px-5mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
         <div className="text-center py-5 relative">
           <h2 className="lg:text-3xl text-4xl font-semibold my-4">Who is OpenBuilD for?</h2>
-          <p className="text-center mx-auto my-7 pt-8 max-w-3xl">
+          <p className="text-center mx-auto my-7 font-normal pt-8 max-w-3xl">
             OpenBuilD is for beginners hungry to learn more about web3, startups
             who would want to build teams to build with tools from our campaigns
             and creators looking to form teams that could become startup ideas.

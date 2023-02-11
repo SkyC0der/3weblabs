@@ -17,7 +17,7 @@ const TitleCard = (props: TitleCardProps) => {
       </div>
       <div className="mx-2 w-5/6">
         <h3 className="text-xl font-semibold my-3">{title}</h3>
-        <p>{content}</p>
+        <p className="font-normal">{content}</p>
       </div>
     </div>
   );

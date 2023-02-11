@@ -15,42 +15,42 @@ export default function Header() {
   return (
     <div className="container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 top-0  sm:px-5 h-18 shadow-[0px_4px_8px_rgba(0,0,0,0.25)] fixed z-[4] bg-[rgb(255,255,255)]">
       <div className="flex justify-between items-center">
-        <div className="flex items-center">
+        <div className={pathname == '/our-onboarding' ? "flex items-center w-44 h-16 lg:w-32 lg:h-14" : "flex items-center"} >
           <Link href="/">
-          <img src={pathname == '/our-onboarding' ? "/assets/images/logo/logo_dark.jpeg" : "/assets/images/logo/Logo-2x.png"} alt="3rdweblabs" className="h-12 w-auto" />
+          <img src={pathname == '/our-onboarding' ? "/assets/images/logo/dark_logo.png" : "/assets/images/logo/Logo-2x.png"} alt="3rdweblabs"  className={pathname == '/our-onboarding' ? "h-full w-full object-cover" : "h-12 w-auto"}  />
           </Link>
-          </div>
+        </div>
 
         <div className={`flex items-center sm:hidden md:hidden ${pathname === '' || pathname === '/' ? 'hidden':''}`}>
             {/* Navigation links */}
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
               <Link href="/for-companies">
                 For Companies
               </Link>
             </span>
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
               <Link href="/our-onboarding">
                 OpenBuilD
               </Link>
             </span>
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
               <Link href="/openbuild">
-                About OpenBuilD
+                About
               </Link>
             </span>
-          <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+          <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
             <Link href="/blog">
               Blog
             </Link>
           </span>
-            {/* <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-light">
+            {/* <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
             <Link href="/our-onboarding">
                 Explore
               </Link>
             </span> */}
           </div>
         <div className="flex items-center sm:hidden md:hidden">
-          <Button onClick={() => push('/contact')} className='font-lighttext-white bg-blue-700'>Hire Us</Button>
+          <Button onClick={() => push('/contact')} className='font-normaltext-white bg-blue-700'>Hire Us</Button>
           </div>
        
 
@@ -106,7 +106,7 @@ export default function Header() {
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
               <Link href="/openbuild">
-                About OpenBuilD
+                About
               </Link>
             </li>
 
@@ -123,7 +123,7 @@ export default function Header() {
             </li>
 
             <li>
-              <Button onClick={() => push('/contact')} className='font-light text-white bg-blue-700'>Hire Us</Button>
+              <Button onClick={() => push('/contact')} className='font-normal text-white bg-blue-700'>Hire Us</Button>
               
               </li>
               
