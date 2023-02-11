@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const OpenBuild = () => {
@@ -10,6 +11,8 @@ const OpenBuild = () => {
       </div>
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="my-12 container mx-auto px-5 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
+      <Link href="/our-onboarding"><span className="bg-transparent cursor-pointer my-2  p-3 text-sm font-semibold flex "> &lt; Back To OpenBuilD</span></Link>
+       
         <p className="my-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
