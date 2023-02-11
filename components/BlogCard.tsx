@@ -6,6 +6,7 @@ type BlogCardType = {
   className?: string;
 };
 const BlogCard = (props: BlogCardType) => {
+  const {title, content} = props
   return (
     <div className="mx-auto max-w-md overflow-hidden rounded-2xl shadow-lg bg-white shadow">
       <div>
@@ -16,10 +17,9 @@ const BlogCard = (props: BlogCardType) => {
         />
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-5 mt-3 text-gray-900">LTO Campaign</h3>
+        <h3 className="text-xl font-semibold mb-5 mt-3 text-gray-900">{title}</h3>
         <p mt-3 text-gray-500>
-          Dolor ad quaerat quis quam quo. In quod eius sit consequuntur quis.
-          Provident […]
+          {content}
         </p>
       </div>
     </div>

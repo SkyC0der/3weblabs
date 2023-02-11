@@ -1,7 +1,7 @@
-import React,{useEffect} from 'react'
-import Link from 'next/link'
-import Button from './Button/Primary'
-import { useRouter } from 'next/router'
+import React, { useEffect } from "react";
+import Link from "next/link";
+import Button from "./Button/Primary";
+import { useRouter } from "next/router";
 
 export default function Header() {
   const [navbar, setNavbar] = React.useState(false);
@@ -9,53 +9,77 @@ export default function Header() {
 
   useEffect(() => {
     setNavbar(false);
-  }, [pathname])
-  
+  }, [pathname]);
 
   return (
     <div className="container mx-auto px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 top-0  sm:px-5 h-18 shadow-[0px_4px_8px_rgba(0,0,0,0.25)] fixed z-[4] bg-[rgb(255,255,255)]">
       <div className="flex justify-between items-center">
-        <div className={pathname == '/our-onboarding' ? "flex items-center w-44 h-16 lg:w-32 lg:h-14" : "flex items-center"} >
+        <div className="flex items-center">
           <Link href="/">
-          <img src={pathname == '/our-onboarding' ? "/assets/images/logo/dark_logo.png" : "/assets/images/logo/Logo-2x.png"} alt="3rdweblabs"  className={pathname == '/our-onboarding' ? "h-full w-full object-cover" : "h-12 w-auto"}  />
+            <div className="flex items-center">
+              <img
+                src={
+                  pathname == "/our-onboarding"
+                    ? "/assets/images/logo/black.png"
+                    : "/assets/images/logo/Logo-2x.png"
+                }
+                alt="3rdweblabs"
+                className="h-12 w-auto"
+              />
+              {pathname == "/our-onboarding" ? (
+                <div className="ml-2 flex items-center">
+                  <span className="text-xl font-medium">| &nbsp; </span>
+                  <span className="text-xl  text-green-700 font-semibold">
+                  OpenBuilD
+                  </span>
+                </div>
+              ) : (
+                ""
+              )}
+            </div>
           </Link>
         </div>
 
-        <div className={`flex items-center sm:hidden md:hidden ${pathname === '' || pathname === '/' ? 'hidden':''}`}>
-            {/* Navigation links */}
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-              <Link href="/for-companies">
-                For Companies
-              </Link>
-            </span>
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-              <Link href="/our-onboarding">
-                OpenBuilD
-              </Link>
-            </span>
-            <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-              <Link href="/openbuild">
-                About
-              </Link>
-            </span>
+        <div
+          className={`flex items-center sm:hidden md:hidden ${
+            pathname === "" || pathname === "/" ? "hidden" : ""
+          }`}
+        >
+          {/* Navigation links */}
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-            <Link href="/blog">
-              Blog
-            </Link>
+            <Link href="/for-companies">For Companies</Link>
           </span>
-            {/* <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
+          <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
+            <Link href="/our-onboarding">OpenBuilD</Link>
+          </span>
+          <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
+            <Link href="/openbuild">About</Link>
+          </span>
+          <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
+            <Link href="/blog">Blog</Link>
+          </span>
+          {/* <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
             <Link href="/our-onboarding">
                 Explore
               </Link>
             </span> */}
-          </div>
+        </div>
         <div className="flex items-center sm:hidden md:hidden">
-          <Button onClick={() => push('/contact')} className='font-normaltext-white bg-blue-700'>Hire Us</Button>
-          </div>
-       
+          <Button
+            onClick={() => push("/contact")}
+            className="font-normal text-white bg-black hover:bg-slate-800"
+          >
+            Hire Us
+          </Button>
+        </div>
 
-       
-        <div className={` ${pathname === '' || pathname === '/' ? 'hidden' : 'sm:block md:block 3xl:hidden flex items-center z-[5]'} `}>
+        <div
+          className={` ${
+            pathname === "" || pathname === "/"
+              ? "hidden"
+              : "sm:block md:block 3xl:hidden flex items-center z-[5]"
+          } `}
+        >
           <button
             className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border "
             onClick={() => setNavbar(!navbar)}
@@ -91,45 +115,44 @@ export default function Header() {
             )}
           </button>
         </div>
-        <div className={`${navbar ? 'fixed z-[3] w-full left-0 h-screen bg-[#dbc6e2] flex justify-center items-center top-0' : 'hidden'} mobile-menu ease-in transition-[display]`}>
+        <div
+          className={`${
+            navbar
+              ? "fixed z-[3] w-full left-0 h-screen bg-[#dbc6e2] flex justify-center items-center top-0"
+              : "hidden"
+          } mobile-menu ease-in transition-[display]`}
+        >
           <ul className="text-center flex justify-center items-center flex-col">
             <li className="active block px-2 py-4 hover:bg-green-500">
-              <Link href="/">
-                Home
-              </Link>
+              <Link href="/">Home</Link>
             </li>
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/for-companies">
-                For Companies
-              </Link>
+              <Link href="/for-companies">For Companies</Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/openbuild">
-                About
-              </Link>
+              <Link href="/openbuild">About</Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-                <Link href="/our-onboarding">
-                  OpenBuilD
-                </Link>
+              <Link href="/our-onboarding">OpenBuilD</Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/blog">
-                Blog
-              </Link>
+              <Link href="/blog">Blog</Link>
             </li>
 
             <li>
-              <Button onClick={() => push('/contact')} className='font-normal text-white bg-blue-700'>Hire Us</Button>
-              
-              </li>
-              
+              <Button
+                onClick={() => push("/contact")}
+                className="font-normal text-white bg-blue-700"
+              >
+                Hire Us
+              </Button>
+            </li>
           </ul>
         </div>
+      </div>
     </div>
-    </div>
-  )
+  );
 }

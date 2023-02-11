@@ -13,7 +13,7 @@ export default function Onboarding() {
   return (
     <div className="bg-transparent">
       <SEO
-        title="Our Onboarding Process"
+        title="OpenBuilD"
         description="Getting Started to Work with Us"
       />
 
@@ -26,27 +26,27 @@ export default function Onboarding() {
       </div> */}
 {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
-       <div className="flex lg:flex-col justify-between items-center ">
+       <div className="flex lg:flex-col justify-between xl:items-center ">
        <div className="lg:w-full w-5/12">
-          <h1 className="text-4xl lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
+          <h1 className="text-5xl leading-normal w-9/12  lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
             Building for Africa in the Open 🚀
           </h1>
-          <p className="w-full my-5 py-2">
+          <p className="w-10/12 lg:w-full my-9 lg:my-5 py-2">
             The challenges in Africa requires builders. Openbuild is powered by
             the African Blockchain Centre for Developers with a goal to empower
             builders with the tools and resources to build on the continent.
           </p>
           <div className="flex justify-between max-w-sm items-center text-base">
-            <Button className="bg-[#30D72D] bg-green-700 ml-0 text-sm" onClick={() => push("/openbuild")}>
+            <Button className="bg-green-700 ml-0 text-sm" onClick={() => push("/openbuild")}>
               About OpenBuilD
             </Button>
             {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
               Join Our Community
             </Button> */}
-            <Link href="/openbuild"><span className="bg-transparent cursor-pointer text-green-500 mx-2 border border-green-500 rounded-l-lg rounded-r-lg p-3 text-sm font-light flex items-center justify-center "> Join Our Community</span></Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/ffVMcKQQ"><span className="bg-transparent cursor-pointer text-green-500 mx-2 border border-green-500 rounded-l-lg rounded-r-lg p-3 text-sm font-normal flex items-center justify-center "> Join Our Community</span></a>
           </div>
         </div>
-        <div className="relative w-5/12 lg:w-full mt-5 py-3 uppercase">
+        <div className="relative w-6/12 lg:w-full mt-5 py-3 uppercase">
           <div className="from-green-200 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute top-4">#Hacks</div>
           <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute right-3 top-8">#Builds</div>
           <div className="from-green-300 to-green-500 bg-clip-text bg-gradient-to-r text-transparent font-semibold lg:text-xl text-2xl absolute left-9 bottom-4">#Events</div>
@@ -65,7 +65,7 @@ export default function Onboarding() {
           </p>
           <div className="bg-[#182F43] absolute w-24 h-1 top-20 left-1/2 lg:left-28"></div>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
+        <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
           <TitleCard
             title="Beginners"
             content="Beginners trying to learn more about web3"
@@ -90,14 +90,14 @@ export default function Onboarding() {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
           <Link href="/">
-            <BlogCard />
+            <BlogCard title = {"100 Days of OpenBuilD"} content={"Dolor ad quaerat quis quam quo. In quod eius sit consequuntur quis. Provident […]"} />
           </Link>
 
           <Link href="/">
-            <BlogCard />
+            <BlogCard title = {"LTO Campaign"} content={"Dolor ad quaerat quis quam quo. In quod eius sit consequuntur quis. Provident […]"} />
           </Link>
           <Link href="/">
-            <BlogCard />
+            <BlogCard title = {"3WebLabs"} content={"Dolor ad quaerat quis quam quo. In quod eius sit consequuntur quis. Provident […]"} />
           </Link>
         </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
