@@ -7,7 +7,7 @@ type TitleCardProps = {
 const TitleCard = (props: TitleCardProps) => {
   const { title, content } = props;
   return (
-    <div className="flex w-full h-36 lg:h-28 justify-start items-center bg-white bg-opacity-30 p-4 rounded-2xl m-2 ">
+    <div className="flex w-full h-36 lg:h-32 justify-start items-center bg-white bg-opacity-30 p-4 rounded-2xl m-2 ">
       <div className="mr-2 w-1/6">
         <img
         className="w-full"

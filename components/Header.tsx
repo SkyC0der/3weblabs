@@ -19,14 +19,14 @@ export default function Header() {
             <div className="flex items-center">
               <img
                 src={
-                  pathname == "/our-onboarding"
+                  pathname == "/openbuild"
                     ? "/assets/images/logo/black.png"
                     : "/assets/images/logo/Logo-2x.png"
                 }
                 alt="3rdweblabs"
                 className="h-12 w-auto"
               />
-              {pathname == "/our-onboarding" ? (
+              {pathname == "/openbuild" ? (
                 <div className="ml-2 flex items-center">
                   <span className="text-xl font-medium">| &nbsp; </span>
                   <span className="text-xl  text-green-700 font-semibold">
@@ -50,10 +50,10 @@ export default function Header() {
             <Link href="/for-companies">For Companies</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-            <Link href="/our-onboarding">OpenBuilD</Link>
+            <Link href="/openbuild">OpenBuilD</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-            <Link href="/openbuild">About</Link>
+            <Link href="/about">About</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
             <Link href="/blog">Blog</Link>
@@ -64,7 +64,7 @@ export default function Header() {
               </Link>
             </span> */}
         </div>
-        <div className="flex items-center sm:hidden md:hidden">
+        <div className={`${pathname === "" || pathname === "/" ? "hidden" : "flex items-center sm:hidden md:hidden"}`}>
           <Button
             onClick={() => push("/contact")}
             className="font-normal text-white bg-black hover:bg-slate-800"
@@ -131,7 +131,7 @@ export default function Header() {
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/openbuild">About</Link>
+              <Link href="/about">About</Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">

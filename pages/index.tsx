@@ -128,7 +128,7 @@ const Home: NextPage = () => {
             </div> : <div className="transition-all ease-in partners mt-10" >Partners</div> }
           </div>
 
-          <div className="border border-white flex justify-center items-center  font-semibold text-4xl sm:text-sm  h-[20rem] sm:h-[13rem]" onClick={() => push('/our-onboarding')}>Open Build</div>
+          <div className="border border-white flex justify-center items-center  font-semibold text-4xl sm:text-sm  h-[20rem] sm:h-[13rem]" onClick={() => push('/openbuild')}>Open Build</div>
           <div className="row-span-2 border border-white flex justify-center items-center font-semibold text-4xl sm:text-sm " onClick={() => push('/for-developers')}>For Developers</div>
         </div>
         </div>

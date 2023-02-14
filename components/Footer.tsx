@@ -122,7 +122,7 @@ export default function Footer() {
             {/* Navigation links */}
             <span className="text-center sm:mb-2 sm:text-xs 3xl:px-4 lg:px-3 md:px-3 font-light xl:text-md">
 
-              © 2022 3WEBLABS <span className="font-medium ">Powered by ABCD.</span> All Rights Reserved.
+              © 2023 3WEBLABS <span className="font-medium ">Powered by ABCD.</span> All Rights Reserved.
 
             </span>
           </div>

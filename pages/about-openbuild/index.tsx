@@ -1,44 +1,54 @@
 import Link from "next/link";
 import React from "react";
 
-const About = () => {
+const OpenBuild = () => {
   return (
     <div>
       <div className="py-12 bg-[url('/assets/images/Background.png')]">
         <h2 className="container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl my-2">
-          About 3weblabs
+          What is OpenBuilD?
         </h2>
       </div>
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="my-12 container mx-auto px-5 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
-        {/* <Link href="/openbuild">
+        <Link href="/openbuild">
           <span className="bg-transparent cursor-pointer my-2  p-3 text-sm font-semibold flex ">
             {" "}
             &lt; Back To OpenBuilD
           </span>
-        </Link> */}
+        </Link>
 
         <p className="my-8 font-normal">
-          3weblabs started out as a community effort heavily sponsored by ABCD
-          Technologies. Earlier efforts began with a focus on the building out
-          what was earlier known as the African Blockchain Centre for
-          Developers.
+          A community for developers, designers, technical writers and every
+          kind of builder in the tech space. The problems facing Africa are
+          unique and particularly interesting. Africa is a unique continent with
+          over 1.4 Billion people most of whom are young people. We can all
+          agree that there has also been increasing interest in Africa of late.
         </p>
         <p className="my-8 font-normal">
-          At 3weblabs our focus is simple; to collaborate with the next
-          generation of builders, innovators and entrepreneurs to build out an
-          innovative hive & laboratory that would become a centre for African
-          technological research, innovation and development driven by
-          communities for impact.
+        In the wake of all these, we still have very few Africans learning and contributing to Africa. We want to empower a generation to build for Africa and solve problems for the rest of the globe. Nobody understands the unique opportunities and challenges in Africa like those who have lived and worked in it. Does this mean you cannot participate if you are not African? not at all.
+
+
         </p>
         <p className="my-8 font-normal">
-          Our goal in the short term is to empower digital skills acquisition,
-          discover top talents and build the biggest web that connects hubs and
-          innovation centres across the continent.
+        The goal is simple: to empower over a <strong>100,000+</strong> talents to build and contribute to Africa.
+
         </p>
-        {/* <p className="my-8 font-normal">
+        <p className="my-8 font-normal">
         Welcome to OpenbuilD, let’s build!!!
-        </p> */}
+        </p>
+
+        <div className="flex justify-center">
+            <a
+              href="https://discord.gg/ffVMcKQQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-white mx-2 bg-green-700 rounded-l-lg my-5 hover:bg-green-900 rounded-r-lg p-3 font-normal flex items-center justify-center"
+            >
+             Join Our Community
+            </a>
+          </div>
+        
       </div>
 
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
@@ -80,4 +90,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default OpenBuild;
