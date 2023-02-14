@@ -100,7 +100,7 @@ export default function Footer() {
                 <img src="/assets/images/icons/arrows/right.png" alt="send" className="h-3 w-3" />
               </Button>
             </form>
-            <script type="text/javascript" src="https://app.getresponse.com/view_webform_v2.js?u=M3O55&webforms_id=hbVYC" data-webform-id="hbVYC"></script>
+            {/* <script type="text/javascript" src="https://app.getresponse.com/view_webform_v2.js?u=M3O55&webforms_id=hbVYC" data-webform-id="hbVYC"></script> */}
 
             <div className="text-sm font-light mb-8 sm:text-xs">
               {/* Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id  */}
