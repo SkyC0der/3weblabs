@@ -38,16 +38,16 @@ const OpenBuild = () => {
         Welcome to OpenbuilD, let’s build!!!
         </p>
 
-        <div className="flex justify-center">
-            <a
-              href="https://discord.gg/ffVMcKQQ"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-primary text-white mx-2 bg-green-700 rounded-l-lg my-5 hover:bg-green-900 rounded-r-lg p-3 font-normal flex items-center justify-center"
-            >
-             Join Our Community
-            </a>
-          </div>
+        <div className="text-center mx-auto mt-12 flex justify-center">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://discord.gg/ffVMcKQQ"
+            className="bg-[#30d72d2c] text-[#30d72d]  font-semibold border-b border-[#30D72D] bg-primary text-white mx-2 hover:bg-green-500 hover:text-white ease-in transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center"
+          >
+            Join Our Community
+          </a>
+        </div>
         
       </div>
 

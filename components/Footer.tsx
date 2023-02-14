@@ -51,13 +51,10 @@ export default function Footer() {
           <div className="flex items-start sm:items-center flex-col left sm:text-sm">
             <div className="mb-2 text-xl">
           
-                <span className="font-medium sm:text-base">3RDWEBLABS</span>
+                <span className="font-medium sm:text-base">3WEBLABS</span>
           
             </div>
-            <Link href="/our-onboarding" >
-              <span className="font-light my-1">Onboarding Process</span> 
-            </Link>
-
+          
             <Link href="/for-companies" >
               <span className="font-light my-1">For Companies</span>
             </Link>
@@ -103,6 +100,7 @@ export default function Footer() {
                 <img src="/assets/images/icons/arrows/right.png" alt="send" className="h-3 w-3" />
               </Button>
             </form>
+            <script type="text/javascript" src="https://app.getresponse.com/view_webform_v2.js?u=M3O55&webforms_id=hbVYC" data-webform-id="hbVYC"></script>
 
             <div className="text-sm font-light mb-8 sm:text-xs">
               {/* Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id  */}

@@ -30,7 +30,7 @@ export default function Header() {
                 <div className="ml-2 flex items-center">
                   <span className="text-xl font-medium">| &nbsp; </span>
                   <span className="text-xl  text-green-700 font-semibold">
-                  OpenBuilD
+                    OpenBuilD
                   </span>
                 </div>
               ) : (
@@ -50,10 +50,10 @@ export default function Header() {
             <Link href="/for-companies">For Companies</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-            <Link href="/openbuild">OpenBuilD</Link>
+            <Link href="/about">About</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
-            <Link href="/about">About</Link>
+            <Link href="/openbuild">OpenBuilD</Link>
           </span>
           <span className="xl:px-2 3xl:px-4 lg:px-3 md:px-3 font-normal">
             <Link href="/blog">Blog</Link>
@@ -64,12 +64,18 @@ export default function Header() {
               </Link>
             </span> */}
         </div>
-        <div className={`${pathname === "" || pathname === "/" ? "hidden" : "flex items-center sm:hidden md:hidden"}`}>
+        <div
+          className={`${
+            pathname === "" || pathname === "/"
+              ? "hidden"
+              : "flex items-center sm:hidden md:hidden"
+          }`}
+        >
           <Button
             onClick={() => push("/contact")}
             className="font-normal text-white bg-black hover:bg-slate-800"
           >
-            Hire Us
+            Hire Talents
           </Button>
         </div>
 
@@ -135,7 +141,7 @@ export default function Header() {
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
-              <Link href="/our-onboarding">OpenBuilD</Link>
+              <Link href="/openbuild">OpenBuilD</Link>
             </li>
 
             <li className=" block px-2 py-4 hover:bg-green-500 transition duration-300">
@@ -147,7 +153,7 @@ export default function Header() {
                 onClick={() => push("/contact")}
                 className="font-normal text-white bg-blue-700"
               >
-                Hire Us
+                Hire Talents
               </Button>
             </li>
           </ul>

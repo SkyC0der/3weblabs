@@ -34,12 +34,13 @@ export default function Onboarding() {
               resources and network to build on the continent.
             </p>
             <div className="flex justify-between max-w-sm items-center text-base">
-              <Button
-                className="bg-green-700 ml-0 text-sm ease-in hover:bg-green-900 transition-all"
-                onClick={() => push("/about-openbuild")}
+              <Link
+
+                href= "/about-openbuild"
               >
-                About OpenBuilD
-              </Button>
+                <span                className="cursor-pointer hover:bg-green-900 ease-in transition-all hover:text-white  bg-primary text-white mx-2 rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center ml-0 text-sm bg-green-700 ">About OpenBuilD</span>
+                
+              </Link>
               {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
               Join Our Community
             </Button> */}
@@ -132,11 +133,12 @@ export default function Onboarding() {
           </Link> */}
         </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
-        <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://discord.gg/ffVMcKQQ"
-              >
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://discord.gg/ffVMcKQQ"
+            className="bg-[#30d72d2c] text-[#30d72d]  font-semibold border-b border-[#30D72D] bg-primary text-white mx-2 hover:bg-green-500 hover:text-white ease-in transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center"
+          >
             Join Our Community
           </a>
         </div>
@@ -156,14 +158,16 @@ export default function Onboarding() {
             <p>Get inspired by these stories</p>
           </div>
           <div className="">
-            <TestimonialCard />
+            <TestimonialCard content="Community and networking helped me as a blockchain developer by providing access to resources, collaboration/partnership opportunities, professional networking, feedback and mentorship and career advancement opportunities, resulting in upscaling my technical skills, building my portfolio, and increasing my visibility in the industry." 
+            role="Blockchain Developer" name="Hussaini Auwal" imgurl="/assets/images/partners/hussaini.jpeg"
+            />
           </div>
           {/* </div> */}
           <div>
-            <TestimonialCard />
+            <TestimonialCard content="Collaborating with the next generation of builders and innovators within my community to build, write and participate in hackathons fast-tracked my skills to becoming a blockchain developer" role= "Senior Blockchain Developer" name="Alfred Awah-Johnson"  imgurl="/assets/images/partners/alfred.jpeg"/>
           </div>
           <div>
-            <TestimonialCard />
+            <TestimonialCard content="Collaborating and networking within this tech community helped me grow my skills as a frontend web developer" role = "Frontend Developer" name ="Emmanuel Ezenwigbo" imgurl="/assets/images/partners/bio.jpg"/>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function ForCompanies() {
 
       <div className='h-60 flex px-40 sm:px-4 justify-between items-center border-2 border-b-white border-r-0 border-t-0 border-l-0 sm:h-42'>
         <h1 className="text-4xl font-semibold sm:text-2xl">For Companies</h1>
-        <Button onClick={() => push('/contact')}>Hire Us</Button>
+        <Button onClick={() => push('/contact')}>Hire Talents</Button>
       </div>
 
       {/* About US */}
@@ -56,8 +56,8 @@ export default function ForCompanies() {
     />
           </div>
     <div>
-      <h3 className="text-2xl mb-10 font-medium">About US</h3>
-      <p className="mb-5">We are a software development company focused on building solutions using various emerging technologies. At 3WebLabs we help businesses and enterprises scale by integrating technology in business and entrepreneurship.  3WebLAbs is powered by the development and Engineering department of ABCD with the global market as a target. </p>
+      <h3 className="text-2xl mb-10 font-medium">About Us</h3>
+
 
       <ul>
         <li className="about-list flex items-center mb-3">
@@ -123,7 +123,7 @@ export default function ForCompanies() {
       <div className="grid gap-x-[6rem] grid-cols-3 sm:grid-cols-1 sm:grid-rows-1 px-48 my-36 mr-40 sm:px-4 sm:my-[20rem] sm:mr-0">
       <div className="mt-40 sm:mb-[8rem]">
           <h1 className="text-2xl pb-10 sm:pb-5 font-semibold">Our Services</h1>
-          <div className="sm:text-sm text-sm font-light pr-26 sm:pr-[0rem]">3WebLabs is a development entity focused on building IT solutions for startups, enterprises and governments. 
+          <div className="sm:text-sm text-sm font-light pr-26 sm:pr-[0rem]"> 
 Tell us about your idea and we’ll provide you with the most suitable technology to reach your project goals.</div>
           <Button className="ml-0 mt-4">Explore More</Button>
       </div>
@@ -175,7 +175,7 @@ Tell us about your idea and we’ll provide you with the most suitable technolog
             <h1 className="text-2xl pb-4 mt-10 sm:pb-5 font-semibold">You&apos;ve got ideas, we have the expertise to give it life.</h1>
             <h3 className="font-light">To accelerate access and ease of integrating technology to build solutions that are scalable and sustainable for businesses.</h3>
 
-            <Button className="ml-0 mt-4" onClick={() => push('/contact')}>Hire Us</Button>
+            <Button className="ml-0 mt-4" onClick={() => push('/contact')}>Hire Talents</Button>
         </div>
       </div>
 

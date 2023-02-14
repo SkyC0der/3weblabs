@@ -26,49 +26,14 @@ export default function Card() {
 
       <div className="my-12 container mx-auto px-5  xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
-          totam praesentium impedit natus laborum. In est vel repellat fugit?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident.
+        Welcome to the 100days of openbuild. 2023 is one of those years where we have people interested in picking up a new skill. It could be web development, mobile, data science, blockchain etc the possibilities are endless.
         </p>
         <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
-          totam praesentium impedit natus laborum. In est vel repellat fugit?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident.
+        One challenge often faced is the problem of consistency. Deciding to pick up a skill and sticking with it can be a huge challenge for a lot of persons. Imagine if you could commit 100days to a particular skill. Just imagine how awesome and really talented you would become and get that dream job or role.
+
         </p>
         <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
+        Register below to join the 100days of openbuild.
         </p>
 
         <div>
@@ -96,28 +61,33 @@ export default function Card() {
       </div>
       <div className="container mx-auto px-5 py-8 mt-12 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <h3 className="text-center text-3xl font-semibold my-6 mb-12">
-          Awesome Community Members
+          Community Leads
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-1  mx-auto place-items-center lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-3">
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Demi Val-Ugboma"
+            role="Communication Lead"
+            imgUrl="/assets/images/partners/demi.jpeg"
+            twitter="https://www.linkedin.com/in/demivalugboma"
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
+            name="Michael Madukwe"
+            role="Design Lead"
             imgUrl="/assets/images/team.png"
+            linkedin="https://www.linkedin.com/in/michael-madukwe-b1b59b166"
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Kem Consolation"
+            role="Asst. Design Lead"
+            imgUrl="/assets/images/partners/kem.jpeg"
+            twitter="https://twitter.com/techieconso?s=21&t=VQlWj89eTYhZWrqnnfzm6A
+            "
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Emmanuel Ezenwigbo"
+            role="Web Lead"
+            imgUrl="/assets/images/partners/bio.jpg"
+            twitter="http://twitter.com/SkyC0der_"
           />
         </div>
       </div>

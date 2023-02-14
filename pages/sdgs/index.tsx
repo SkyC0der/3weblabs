@@ -14,72 +14,31 @@ export default function Card() {
         </h2>
         <div className="text-white text-center">
           <p className="my-2">
-            <strong className="mr-2 font-semibold">Opening Date:</strong> March
-            6, 2023.
+            <strong className="mr-2 font-semibold">Opening Date:</strong> TBD
           </p>
           <p className="my-2">
-            <strong className="mr-2 font-semibold">Closing Date:</strong> 14
-            June, 2023.
+            <strong className="mr-2 font-semibold">Closing Date:</strong> TBD
           </p>
         </div>
       </div>
 
       <div className="my-12 container mx-auto px-5  xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
-          totam praesentium impedit natus laborum. In est vel repellat fugit?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident.
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          quo qui nemo dicta quaerat amet enim, fugit ullam animi adipisci,
-          totam praesentium impedit natus laborum. In est vel repellat fugit?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident.
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
-        </p>
-        <p className="my-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          veritatis hic incidunt enim consectetur voluptatibus quaerat soluta,
-          illum, laudantium nihil porro. Beatae alias laudantium voluptas
-          maiores possimus, autem provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Accusantium quo qui nemo dicta quaerat
-          amet enim, fugit ullam animi adipisci, totam praesentium impedit natus
-          laborum. In est vel repellat fugit?
-        </p>
+        The Sustainable Development Goals (SDGs) or Global Goals are a collection of 17 interlinked objectives designed to serve as a &quot;shared blueprint for peace and prosperity for people and the planet now and into the future&quot;.
 
+        </p>
+        <p className="my-8">
+        The lists of targets and indicators for each of the 17 SDGs was published in a UN resolution in July 2017. Through the openbuild for SDGs we want to target a series of events and programs geared at building functional and usable solutions to contribute to different communities at the grassroots.
+
+        </p>
+       
         <div>
           <div className="text-dark text-center">
             <p className="my-2">
-              <strong className="mr-2 font-semibold">Opening Date:</strong>{" "}
-              March 6, 2023.
+              <strong className="mr-2 font-semibold">Opening Date:</strong>TBD
             </p>
             <p className="my-2">
-              <strong className="mr-2 font-semibold">Closing Date:</strong> 14
-              June, 2023.
+              <strong className="mr-2 font-semibold">Closing Date:</strong> TBD
             </p>
           </div>
           <div className="flex justify-center">
@@ -87,7 +46,8 @@ export default function Card() {
               href="https://otobong-b7502.gr8.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="bg-primary text-white mx-2 bg-green-700 rounded-l-lg my-5 hover:bg-green-900 rounded-r-lg p-3 font-normal flex items-center justify-center"
+    
             >
               Register Here
             </a>
@@ -96,28 +56,33 @@ export default function Card() {
       </div>
       <div className="container mx-auto px-5 py-8 mt-12 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <h3 className="text-center text-3xl font-semibold my-6 mb-12">
-          Awesome Community Members
+          Community Leads
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-1  mx-auto place-items-center lg:grid-cols-2 gap-6 xl:grid-cols-3 2xl:grid-cols-3">
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Demi Val-Ugboma"
+            role="Communication Lead"
+            imgUrl="/assets/images/partners/demi.jpeg"
+            twitter="https://www.linkedin.com/in/demivalugboma"
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
+            name="Michael Madukwe"
+            role="Design Lead"
             imgUrl="/assets/images/team.png"
+            linkedin="https://www.linkedin.com/in/michael-madukwe-b1b59b166"
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Kem Consolation"
+            role="Asst. Design Lead"
+            imgUrl="/assets/images/partners/kem.jpeg"
+            twitter="https://twitter.com/techieconso?s=21&t=VQlWj89eTYhZWrqnnfzm6A
+            "
           />
           <ProfileCard
-            name="Otobong Peter"
-            role="Blockchain Developer"
-            imgUrl="/assets/images/team.png"
+            name="Emmanuel Ezenwigbo"
+            role="Web Lead"
+            imgUrl="/assets/images/partners/bio.jpg"
+            twitter="http://twitter.com/SkyC0der_"
           />
         </div>
       </div>

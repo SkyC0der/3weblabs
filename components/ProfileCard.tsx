@@ -11,9 +11,9 @@ type ProfileCardProps = {
   className?: string;
 };
 const ProfileCard = (props: ProfileCardProps) => {
-    const {name, role, imgUrl, twitter = "#", linkedin = "#", className} = props
+    const {name, role, imgUrl, twitter, linkedin, className} = props
   return (
-    <div className="my-2 p-6 bg-white drop-shadow-2xl rounded-lg w-11/12 ">
+    <div className="my-2 p-6 bg-white drop-shadow-xl border rounded-lg w-11/12 ">
         <div className="md:px-12 xl:px-6">
           <div className="photo-wrapper p-2">
             <img
@@ -31,24 +31,29 @@ const ProfileCard = (props: ProfileCardProps) => {
             </div>
 
             <div className="text-center flex justify-center items-center my-5">
-              <a
-                className="text-xs mx-4 text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium"
-                href={twitter}
-              >
-                <img
-                  className="w-8 h-8"
-                  src="/assets/images/icons/twitter.png"
-                />
-              </a>
-              <a
-                className="text-xs mx-4 text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium"
-                href={linkedin}
-              >
-                <img
-                  className="w-8 h-8"
-                  src="/assets/images/icons/linkedin.png"
-                />
-              </a>
+              {
+                twitter?  (<a
+                  className="text-xs mx-4 text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium"
+                  href={twitter}
+                >
+                  <img
+                    className="w-8 h-8"
+                    src="/assets/images/icons/twitter.png"
+                  />
+                </a>) : ''
+              }
+              {
+                linkedin ? (<a
+                  className="text-xs mx-4 text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium"
+                  href={linkedin}
+                >
+                  <img
+                    className="w-8 h-8"
+                    src="/assets/images/icons/linkedin.png"
+                  />
+                </a>) : ''
+              }
+             
             </div>
           </div>
       </div>
