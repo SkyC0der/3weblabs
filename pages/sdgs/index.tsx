@@ -68,7 +68,7 @@ export default function Card() {
           <ProfileCard
             name="Michael Madukwe"
             role="Design Lead"
-            imgUrl="/assets/images/team.png"
+            imgUrl="/assets/images/partners/punk.png"
             linkedin="https://www.linkedin.com/in/michael-madukwe-b1b59b166"
           />
           <ProfileCard
