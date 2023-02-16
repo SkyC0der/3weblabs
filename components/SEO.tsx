@@ -11,7 +11,7 @@ const SEO = ({
 }) => {
   return (
     <Head>
-      <title>3weblabs | {title}</title>
+      <title>{`3weblabs | ${title}`}</title>
       <meta name="title" content={`3weblabs ${title}`} />
       <meta name="description" content={description} />
 
