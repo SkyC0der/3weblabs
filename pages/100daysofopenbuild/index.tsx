@@ -26,15 +26,19 @@ export default function Card() {
 
       <div className="my-12 container mx-auto px-5  xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <p className="my-8">
-        Welcome to the 100days of openbuild. 2023 is one of those years where we have people interested in picking up a new skill. It could be web development, mobile, data science, blockchain etc the possibilities are endless.
+          Welcome to the 100days of openbuild. 2023 is one of those years where
+          we have people interested in picking up a new skill. It could be web
+          development, mobile, data science, blockchain etc the possibilities
+          are endless.
         </p>
         <p className="my-8">
-        One challenge often faced is the problem of consistency. Deciding to pick up a skill and sticking with it can be a huge challenge for a lot of persons. Imagine if you could commit 100days to a particular skill. Just imagine how awesome and really talented you would become and get that dream job or role.
-
+          One challenge often faced is the problem of consistency. Deciding to
+          pick up a skill and sticking with it can be a huge challenge for a lot
+          of persons. Imagine if you could commit 100days to a particular skill.
+          Just imagine how awesome and really talented you would become and get
+          that dream job or role.
         </p>
-        <p className="my-8">
-        Register below to join the 100days of openbuild.
-        </p>
+        <p className="my-8">Register below to join the 100days of openbuild.</p>
 
         <div>
           <div className="text-dark text-center">
@@ -49,7 +53,7 @@ export default function Card() {
           </div>
           <div className="flex justify-center">
             <a
-              href="https://otobong-b7502.gr8.com/"
+              href="https://3weblabs.gr8.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-white mx-2 bg-green-700 rounded-l-lg my-5 hover:bg-green-900 rounded-r-lg p-3 font-normal flex items-center justify-center"
@@ -68,7 +72,7 @@ export default function Card() {
             name="Demi Val-Ugboma"
             role="Communication Lead"
             imgUrl="/assets/images/partners/demi.jpeg"
-            twitter="https://www.linkedin.com/in/demivalugboma"
+            linkedin="https://www.linkedin.com/in/demivalugboma"
           />
           <ProfileCard
             name="Michael Madukwe"

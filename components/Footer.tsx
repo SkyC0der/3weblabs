@@ -46,7 +46,7 @@ export default function Footer() {
 
       <div className={`container mx-auto sm:px-2 px-1 pt-8 xl:px-32 lg:px-10 3xl:px-52 xl:py-4 lg:py-4 md:py-4 3xl:py-8 bg-transparent text-dark ${pathname === '' || pathname === '/' ? 'hidden':''}`}>
 
-        <div className="grid grid-cols-1 3xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 md:gris-rows-2 flex justify-between items-start ">
+        <div className="grid grid-cols-1 3xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 md:gris-rows-2  justify-between items-start ">
 
           <div className="flex items-start sm:items-center flex-col left sm:text-sm">
             <div className="mb-2 text-xl">
@@ -127,26 +127,14 @@ export default function Footer() {
 
           <div className="flex items-center sm:my-2">
             <span className="mx-2">
-              <a href="https://www.facebook.com/3rdweblabs/" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/facebook.png" alt="3rdweblabs" className="h-10 sm:h-6" />
+              <a href="https://github.com/theOpenBuilD" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/icons/github.png" alt="3rdweblabs_github_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" />
               </a>
             </span>
 
             <span className="mx-2">
-              <a href="https://www.facebook.com/3rdweblabs/" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/instagram.png" alt="3rdweblabs" className="h-10 sm:h-6" />
-              </a>
-            </span>
-
-            <span className="mx-2">
-              <a href="https://twitter.com/3weblabs?s=21&t=hn8W1McPNSSTo3Oijo58VQ" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/twitter.png" alt="3rdweblabs_facebook_icon" className="h-10 sm:h-6" />
-              </a>
-            </span>
-
-            <span className="mx-2">
-              <a href="https://www.linkedin.com/company/3-weblabs/" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/linkedin.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6" />
+              <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" />
               </a>
             </span>
           </div>

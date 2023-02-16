@@ -41,7 +41,7 @@ export default function Card() {
               <strong className="mr-2 font-semibold">Closing Date:</strong> TBD
             </p>
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <a
               href="https://otobong-b7502.gr8.com/"
               target="_blank"
@@ -51,7 +51,7 @@ export default function Card() {
             >
               Register Here
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="container mx-auto px-5 py-8 mt-12 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
@@ -63,7 +63,7 @@ export default function Card() {
             name="Demi Val-Ugboma"
             role="Communication Lead"
             imgUrl="/assets/images/partners/demi.jpeg"
-            twitter="https://www.linkedin.com/in/demivalugboma"
+            linkedin="https://www.linkedin.com/in/demivalugboma"
           />
           <ProfileCard
             name="Michael Madukwe"
