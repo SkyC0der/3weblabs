@@ -34,6 +34,11 @@ const SEO = ({
         property="twitter:image"
         content={"https://3weblabs.io/assets/images/logo/Logo-2x.png"}
       />
+
+      <script
+        src="https://kit.fontawesome.com/9b1c8d52ed.js"
+        crossOrigin="anonymous"
+      ></script>
     </Head>
   );
 };

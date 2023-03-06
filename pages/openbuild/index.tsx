@@ -47,7 +47,7 @@ export default function Onboarding() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://discord.gg/ffVMcKQQ"
+                href="https://discord.gg/eEaeJV6w"
               >
                 <span className="bg-transparent cursor-pointer hover:bg-green-900 ease-in transition-all hover:text-white  text-green-500 mx-2 border border-green-500 rounded-l-lg rounded-r-lg p-3 text-sm font-normal flex items-center justify-center ">
                   {" "}
@@ -136,7 +136,7 @@ export default function Onboarding() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://discord.gg/ffVMcKQQ"
+            href="https://discord.gg/eEaeJV6w"
             className="bg-[#30d72d2c] text-[#30d72d]  font-semibold border-b border-[#30D72D] bg-primary text-white mx-2 hover:bg-green-500 hover:text-white ease-in transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center"
           >
             Join Our Community

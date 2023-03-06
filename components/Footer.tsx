@@ -73,7 +73,7 @@ export default function Footer() {
               <span className="font-medium sm:text-base">About</span>
               
             </div>
-            <a href="https://discord.gg/6hwNBMBCd4" target="_blank" rel="noopener noreferrer" >
+            <a href="https://discord.gg/eEaeJV6w" target="_blank" rel="noopener noreferrer" >
               <span className="font-light my-1 py-1">Join Our Community</span>
             </a>
 
@@ -134,7 +134,8 @@ export default function Footer() {
 
             <span className="mx-2">
               <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" />
+                {/* <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
+              <i className="fa-brands fa-discord text-3xl text-black "></i>
               </a>
             </span>
           </div>

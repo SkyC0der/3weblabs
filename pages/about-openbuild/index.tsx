@@ -42,7 +42,7 @@ const OpenBuild = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://discord.gg/ffVMcKQQ"
+            href="https://discord.gg/eEaeJV6w"
             className="bg-[#30d72d2c] text-[#30d72d]  font-semibold border-b border-[#30D72D] bg-primary text-white mx-2 hover:bg-green-500 hover:text-white ease-in transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center"
           >
             Join Our Community
