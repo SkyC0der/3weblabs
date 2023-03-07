@@ -85,14 +85,17 @@ export default function Onboarding() {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
           <TitleCard
+          icon="fa-solid text-5xl fa-book"
             title="Project Library"
             content="A library of opensource projects and tools to help you 10x your technical or design skills and remain job ready for the industries of the future."
           />
           <TitleCard
+          icon="fa-solid text-5xl fa-users"
             title="Connect with Jobs"
             content="Are you an extremely talented designer or developer? Join our talent pool and get to work with top companies around the world."
           />
           <TitleCard
+          icon="fa-solid text-5xl fa-handshake"
             title="Partners / Sponsors "
             content="Partner with us to push awesome products to the community or sponsor to help us scale our community impact."
           />

@@ -126,18 +126,32 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center sm:my-2">
-            <span className="mx-2">
+          <span className="mx-4">
+              <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
+                {/* <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
+              <i className="fa-brands fa-linkedin text-2xl text-black "></i>
+              </a>
+            </span>
+            <span className="mx-4">
+              <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
+                {/* <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
+              <i className="fa-brands fa-twitter text-2xl text-black "></i>
+              </a>
+            </span>
+            <span className="mx-4">
+              <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
+                {/* <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
+              <i className="fa-brands fa-discord text-2xl text-black "></i>
+              </a>
+            </span>
+            <span className="mx-4">
               <a href="https://github.com/theOpenBuilD" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/icons/github.png" alt="3rdweblabs_github_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" />
+                {/* <img src="/assets/images/icons/github.png" alt="3rdweblabs_github_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
+                <i className="fa-brands fa-github text-black text-2xl"></i>
               </a>
             </span>
 
-            <span className="mx-2">
-              <a href="https://discord.gg/ffVMcKQQ" target="_blank" rel="noopener noreferrer">
-                {/* <img src="/assets/images/icons/discord.png" alt="3rdweblabs_linkedin_icon" className="h-10 sm:h-6 w-10 sm:w-6 object-contain" /> */}
-              <i className="fa-brands fa-discord text-3xl text-black "></i>
-              </a>
-            </span>
+            
           </div>
         </div>
       </div>
