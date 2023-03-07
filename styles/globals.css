@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* @font-face {
+@font-face {
     font-family: wavehaus;
     font-weight:100;
     src: url("/assets/fonts/wavehaus/Wavehaus-28Thin.otf") format("opentype");
@@ -33,7 +33,7 @@
     font-family: wavehaus;
     font-weight:700;
     src: url("/assets/fonts/wavehaus/Wavehaus-158ExtraBold.otf") format("opentype");
-} */
+}
 
 html,
 body {
@@ -42,6 +42,10 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-weight:400;
   color: #182F43;
+}
+
+.home{
+  font-family: 'wavehaus', sans-serif;
 }
 
 a {

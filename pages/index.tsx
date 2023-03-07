@@ -91,7 +91,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="mt-[1rem]">
+    <div className="mt-[1rem] home">
 
       <SubScribeToNewLetterModal closed={() => setShowNewsletter(false)} show={showNewsLetter} />
 

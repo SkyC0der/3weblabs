@@ -111,16 +111,16 @@ export default function Footer() {
 
 
       <div className="container mx-auto px-5 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 bg-transparent text-dark sm:px-4 sm:py-2">
-        <div className="flex flex-col sm:flex-col  md:flex-col 3xl:flex-row justify-between items-start">
+        <div className="flex flex-col sm:flex-col  md:flex-col 3xl:flex-row justify-between items-start md:items-center">
           <div className="flex items-center sm:my-2">
             <img src="/assets/images/logo/Logo-2x.png" alt="3rdweblabs" className="h-10" />
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-center my-4">
             {/* Navigation links */}
             <span className="text-center sm:mb-2 sm:text-xs 3xl:px-4 lg:px-3 md:px-3 font-light xl:text-md">
 
-              © 2023 3WEBLABS <span className="font-medium ">Powered by ABCD.</span> All Rights Reserved.
+              © 2023 3WEBLABS <span className="font-bold ">Powered by ABCD.</span> All Rights Reserved.
 
             </span>
           </div>
