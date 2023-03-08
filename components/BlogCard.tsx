@@ -11,7 +11,7 @@ const BlogCard = (props: BlogCardType) => {
   const { title, content, pageurl } = props;
   console.log("/"+ pageurl)
   return (
-    <div className="mx-auto max-w-md overflow-hidden  rounded-2xl shadow-lg bg-white min-h-full">
+    <div className="mx-auto max-w-md overflow-hidden  rounded-2xl shadow-lg bg-white min-h-[auto]">
       <Link href={"/" + pageurl}>
         <div className="cursor-pointer">
           <img

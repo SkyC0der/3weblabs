@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/for-developers/components/JoinUs.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/innovation/components/JoinUs.jsx"],
   "exclude": ["node_modules"]
 }

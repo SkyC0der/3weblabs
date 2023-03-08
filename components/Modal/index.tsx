@@ -40,7 +40,7 @@ const Modal = (props: ModalType) => {
       unmountOnExit
       timeout={{ enter: 0, exit: 300 }}
     >
-      <div className="modal" onClick={props.onClose}>
+      <div className="modal pt-6 rounded" onClick={props.onClose}>
         <div className="modal-content" onClick={e => e.stopPropagation()}>
           {/* <div className="modal-header">
             <h4 className="modal-title">{props.title}</h4>
