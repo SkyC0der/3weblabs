@@ -8,7 +8,7 @@ import SecondaryButton from "../../components/Button/Secondary";
 import { useRouter } from "next/router";
 import TitleCard from "../../components/TitleCard";
 import Link from "next/link";
-import BlogCard from "../../components/BlogCard";
+import LabCard from "../../components/LabCard";
 import TestimonialCard from "../../components/TestimonialCard";
 
 type SingleArticle = {
@@ -97,22 +97,22 @@ export default function ForDevelopers() {
           <div className="bg-[#182F43] absolute w-32 h-1 top-20 left-[45%] lg:left-28"></div>
         </div>
         <div className="grid grid-cols-4 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
-        <BlogCard
+        <LabCard
             title={"Ideas Testing Lab"}
             content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
             pageurl={"MVP Lab"}
           />
-          <BlogCard
+          <LabCard
             title={"Social Impact Lab"}
             content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
             pageurl={"100daysofopenbuild"}
           />
-          <BlogCard
+          <LabCard
             title={"Discover Hubs"}
             content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
             pageurl={"100daysofopenbuild"}
           />
-          <BlogCard
+          <LabCard
             title={"MVP Lab"}
             content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
             pageurl={"100daysofopenbuild"}
@@ -139,14 +139,14 @@ export default function ForDevelopers() {
           </p>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
-          <BlogCard
+          <LabCard
             title={"100 Days of OpenBuilD"}
             content={
               "Openbuild is powered by 3weblabs with the goal to empower builders with the tools, resources and network to build on the continent. The goal is simple: to empower over a 100,000+ talents to build and contribute to Africa."
             }
             pageurl={"100daysofopenbuild"}
           />
-          <BlogCard
+          <LabCard
             title={"OpenBuilD for SDGs"}
             content={
               "Join us to build impactful projects that would help us achieve the Sustainable Development Goals (SDGs)."
@@ -154,7 +154,7 @@ export default function ForDevelopers() {
             pageurl={"sdgs"}
           />
           {/* <Link href="/">
-          <BlogCard
+          <LabCard
             title={"3WebLabs"}
             content={
               "Dolor ad quaerat quis quam quo. In quod eius sit consequuntur quis. Provident […]"
