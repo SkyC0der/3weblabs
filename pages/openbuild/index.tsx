@@ -14,13 +14,7 @@ export default function Onboarding() {
     <div className="bg-transparent">
       <SEO title="OpenBuilD" description="Getting Started to Work with Us" />
 
-      {/* <div className='h-60 flex px-40 sm:px-4 justify-between items-center border-2 border-b-white border-r-0 border-t-0 border-l-0 sm:h-42 sm:flex-col sm:items-start sm:justify-center'>
-        <div>
-          <h1 className="text-4xl font-semibold sm:text-2xl my-2">Onboarding Process</h1>
-          <p className="text-sm font-light sm:text-sm my-2"> Getting Started to Work with Us</p>
-        </div>
-        <Button onClick={() => push('/contact')} className="sm:m-0 sm:my-2">Hire Us</Button>
-      </div> */}
+     
       {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="flex lg:flex-col justify-between xl:items-center ">
