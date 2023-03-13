@@ -14,7 +14,6 @@ export default function Onboarding() {
     <div className="bg-transparent">
       <SEO title="OpenBuilD" description="Getting Started to Work with Us" />
 
-     
       {/* xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="flex lg:flex-col justify-between xl:items-center ">
@@ -22,18 +21,17 @@ export default function Onboarding() {
             <h1 className="text-5xl leading-normal w-9/12  lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
               Building for Africa in the Open 🚀
             </h1>
+
             <p className="w-10/12 lg:w-full my-9 lg:my-5 py-2">
               The challenges in Africa require builders. Openbuild is powered by
               3weblabs with the goal to empower builders with the tools,
               resources and network to build on the continent.
             </p>
             <div className="flex justify-between max-w-sm items-center text-base">
-              <Link
-
-                href= "/about-openbuild"
-              >
-                <span                className="cursor-pointer hover:bg-green-900 ease-in transition-all hover:text-white  bg-primary text-white mx-2 rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center ml-0 text-sm bg-green-700 ">About OpenBuilD</span>
-                
+              <Link href="/about-openbuild">
+                <span className="cursor-pointer hover:bg-green-900 ease-in transition-all hover:text-white  bg-primary text-white mx-2 rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center ml-0 text-sm bg-green-700 ">
+                  About OpenBuilD
+                </span>
               </Link>
               {/* <Button className="bg-transparent border-2" onClick={() => push("/openbuild")}>
               Join Our Community
@@ -79,17 +77,17 @@ export default function Onboarding() {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
           <TitleCard
-          icon="fa-solid text-5xl fa-book"
+            icon="fa-solid text-5xl fa-book"
             title="Project Library"
             content="A library of opensource projects and tools to help you 10x your technical or design skills and remain job ready for the industries of the future."
           />
           <TitleCard
-          icon="fa-solid text-5xl fa-users"
+            icon="fa-solid text-5xl fa-users"
             title="Connect with Jobs"
             content="Are you an extremely talented designer or developer? Join our talent pool and get to work with top companies around the world."
           />
           <TitleCard
-          icon="fa-solid text-5xl fa-handshake"
+            icon="fa-solid text-5xl fa-handshake"
             title="Partners / Sponsors "
             content="Partner with us to push awesome products to the community or sponsor to help us scale our community impact."
           />
@@ -154,16 +152,29 @@ export default function Onboarding() {
             <p>Get inspired by these stories</p>
           </div>
           <div className="">
-            <TestimonialCard content="Community and networking helped me as a blockchain developer by providing access to resources, collaboration/partnership opportunities, professional networking, feedback and mentorship and career advancement opportunities, resulting in upscaling my technical skills, building my portfolio, and increasing my visibility in the industry." 
-            role="Blockchain Developer" name="Hussaini Auwal" imgurl="/assets/images/partners/hussaini.jpeg"
+            <TestimonialCard
+              content="Community and networking helped me as a blockchain developer by providing access to resources, collaboration/partnership opportunities, professional networking, feedback and mentorship and career advancement opportunities, resulting in upscaling my technical skills, building my portfolio, and increasing my visibility in the industry."
+              role="Blockchain Developer"
+              name="Hussaini Auwal"
+              imgurl="/assets/images/partners/hussaini.jpeg"
             />
           </div>
           {/* </div> */}
           <div>
-            <TestimonialCard content="Collaborating with the next generation of builders and innovators within my community to build, write and participate in hackathons fast-tracked my skills to becoming a blockchain developer" role= "Senior Blockchain Developer" name="Alfred Awah-Johnson"  imgurl="/assets/images/partners/alfred.jpeg"/>
+            <TestimonialCard
+              content="Collaborating with the next generation of builders and innovators within my community to build, write and participate in hackathons fast-tracked my skills to becoming a blockchain developer"
+              role="Senior Blockchain Developer"
+              name="Alfred Awah-Johnson"
+              imgurl="/assets/images/partners/alfred.jpeg"
+            />
           </div>
           <div>
-            <TestimonialCard content="Collaborating and networking within this tech community helped me grow my skills as a frontend web developer" role = "Frontend Developer" name ="Emmanuel Ezenwigbo" imgurl="/assets/images/partners/bio.jpg"/>
+            <TestimonialCard
+              content="Collaborating and networking within this tech community helped me grow my skills as a frontend web developer"
+              role="Frontend Developer"
+              name="Emmanuel Ezenwigbo"
+              imgurl="/assets/images/partners/bio.jpg"
+            />
           </div>
         </div>
       </div>

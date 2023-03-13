@@ -43,7 +43,10 @@ export default function ForDevelopers() {
 
   return (
     <div className="bg-transparent">
-            <JoinUsModal show={showJoinUsModal} closed={() => setshowJoinUsModal(false)}/>
+      <JoinUsModal
+        show={showJoinUsModal}
+        closed={() => setshowJoinUsModal(false)}
+      />
       <SEO
         title="Research & Innovation"
         description="Are you an extremely skilled techy? Join our talent Pool today."
@@ -53,20 +56,21 @@ export default function ForDevelopers() {
         <div className="flex lg:flex-col justify-between xl:items-center ">
           <div className="lg:w-full w-5/12">
             <h1 className="text-4xl leading-normal w-10/12  lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
-              Find the Best Reasearch and Innovation Hubs around the continent 🚀
+              Unlock Next Level Innovation 🚀
             </h1>
-            <p className="w-10/12 lg:w-full my-9 lg:my-5 py-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
-              distinctio possimus! Alias, tempore eaque veritatis debitis iusto
-              distinctio saepe voluptas ex eveniet praesentium, assumenda et
-              deleniti unde ab perspiciatis! Laborum!
-            </p>
+            <div className="w-10/12 lg:w-full my-9 lg:my-5 py-2">
+              <p className="my-4">
+                Different ideas require different set of approach and skills. It
+                could be technical, informational or human resource deficit.{" "}
+              </p>
+              <p>Let's help you unlock innovation without limits.</p>
+            </div>
             <div className="flex justify-between max-w-sm items-center text-base">
-              
-              <Button onClick={() => setshowJoinUsModal(true)}><span className="cursor-pointer hover:bg-blue-900 ease-in transition-all hover:text-white  bg-primary text-white mx-2 rounded-l-lg rounded-r-lg font-normal flex items-center justify-center  text-sm ">
+              <Button onClick={() => setshowJoinUsModal(true)}>
+                <span className="cursor-pointer hover:bg-blue-900 ease-in transition-all hover:text-white  bg-primary text-white mx-2 rounded-l-lg rounded-r-lg font-normal flex items-center justify-center  text-sm ">
                   Join Talent Pool
-                </span></Button>
-              
+                </span>
+              </Button>
             </div>
           </div>
           <div className="relative w-6/12 lg:w-full mt-5 py-3 uppercase">
@@ -87,47 +91,60 @@ export default function ForDevelopers() {
       <div className="my-16  bg-gradient-to-r from-teal-300 to-blue-500 container mx-auto px-5mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2 ">
         <div className="text-center py-5 relative ">
           <h2 className="lg:text-3xl text-4xl font-semibold my-4">
-            Discover Hubs 
+            Build & Innovate
           </h2>
           <p className="text-center mx-auto my-7 font-normal pt-8 max-w-3xl">
-            A community with an aim to connect designers/developers/techies to
-            build and solve problems on/from the African continent. Openbuild is
-            open for every interested tech talent.
+            The best ideas must be combined with the right information and the
+            best teams if they will ever become usable solutions for everyday
+            people..
           </p>
           <div className="bg-[#182F43] absolute w-32 h-1 top-20 left-[45%] lg:left-28"></div>
         </div>
-        <div className="grid grid-cols-4 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
-        <LabCard
+        <div className="grid grid-cols-4 md:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
+          <LabCard
+            imgSrc={"/assets/images/bg/idea-testing.webp"}
             title={"Ideas Testing Lab"}
-            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
+            content={
+              "Ideas are the building blocks of our society and sometimes it can be daunting figuring out a concept. Tap in experts to help you idea easily and test your ideas before building and shipping."
+            }
             pageurl={"MVP Lab"}
           />
           <LabCard
+            imgSrc={"/assets/images/bg/social-impact.webp"}
             title={"Social Impact Lab"}
-            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
+            content={
+              "We are building solutions that drive social impact with an objective to empower, increase access to solve problems in developing nations."
+            }
             pageurl={"100daysofopenbuild"}
           />
           <LabCard
-            title={"Discover Hubs"}
-            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
+            imgSrc={"/assets/images/bg/blockchain.webp"}
+            title={"Blockchain Hubs"}
+            content={
+              "Work with our team to build blockchain solutions, interact with our products or augment your team with blockchain developers from Africa."
+            }
+            btnText="Discover Hubs"
             pageurl={"100daysofopenbuild"}
           />
           <LabCard
+            imgSrc={"/assets/images/bg/mvp-lab.webp"}
             title={"MVP Lab"}
-            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio possimus'}
+            content={
+              "A Minimum Viable Product (MVP) is the first proof of work on a concept after ideation. We make it easy to develop an MVP and hit the road running towards getting investments and building."
+            }
             pageurl={"100daysofopenbuild"}
           />
         </div>
-        <div className="text-center mx-auto mt-12 flex justify-center">
+        {/* <div className="text-center mx-auto mt-12 flex justify-center">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://discord.gg/eEaeJV6w"
             className="bg-blue-700 hover:bg-blue-900 text-white  font-semibold border-b border-[#2d5ad7] bg-primary text-white mx-2 ease-in transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center"
-           >
+          >
             Discover Hubs
           </a>
-        </div>
+        </div> */}
       </div>
       {/* <div className="sm:container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
         <div className="text-center">
@@ -161,7 +178,7 @@ export default function ForDevelopers() {
             }
           />
         </Link> */}
-        {/* </div>
+      {/* </div>
         <div className="text-center mx-auto mt-12 flex justify-center">
           <a
             target="_blank"
