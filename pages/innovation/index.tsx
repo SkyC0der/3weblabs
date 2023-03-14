@@ -87,7 +87,7 @@ export default function ForDevelopers() {
           </div>
         </div> */}
 
-        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56 relative">
           {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{" "}
@@ -97,8 +97,17 @@ export default function ForDevelopers() {
               </a>
             </div>
           </div> */}
+          <div className="absolute top-0 rotate-12 left-[-30%] lg:w-20 lg:left-0 z-[-6] w-48 h-24">
+            <img className="w-full" src="/assets/images/illustrations/ill2.jpg" alt="" />
+          </div>
+          <div className="absolute top-0 rotate-12 right-[-30%] z-[-6] lg:w-20 lg:right-[10%] lg:top-[15%] w-48 h-24">
+            <img className="w-full" src="/assets/images/illustrations/illustration.jpg" alt="" />
+          </div>
+          <div  className="absolute bottom-0 rotate-90 right-[-10%] z-[-6] w-40  h-24 lg:left-[-10%] lg:w-36 lg:bottom-[10%]">
+            <img className="w-full" src="/assets/images/illustrations/ill3.jpg" alt="" />
+          </div>
           <div className="text-center">
-            <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+            <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Unlock Next Level Innovation 🚀
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -127,7 +136,7 @@ export default function ForDevelopers() {
           <h2 className="lg:text-3xl text-4xl font-semibold my-4">
             Build & Innovate
           </h2>
-          <p className="text-center mx-auto my-7 font-normal pt-8 max-w-3xl">
+          <p className="text-center text-lg mx-auto my-7 font-normal pt-8 max-w-3xl">
             The best ideas must be combined with the right information and the
             best teams if they will ever become usable solutions for everyday
             people.
@@ -139,7 +148,7 @@ export default function ForDevelopers() {
             imgSrc={"/assets/images/bg/idea-testing.webp"}
             title={"Ideas Testing Lab"}
             content={
-              "Ideas are the building block of every product. Tap in our experts to help you to easily test & vet your ideas before building and shipping."
+              "Ideas are the building block of every product. Tap in our experts to help you to easily test & vet your ideas before building and shipping your product."
             }
             pageurl={"ideas-lab"}
           />
