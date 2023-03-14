@@ -5,18 +5,19 @@ type BlogCardType = {
   title?: string;
   content?: string;
   className?: string;
-  pageurl?: string
+  pageurl?: string;
+  imgSrc?: string;
 };
 const BlogCard = (props: BlogCardType) => {
-  const { title, content, pageurl } = props;
+  const { title, content, pageurl, imgSrc } = props;
   console.log("/"+ pageurl)
   return (
-    <div className="mx-auto max-w-md overflow-hidden  rounded-2xl shadow-lg bg-white min-h-[auto]">
+    <div className="mx-auto max-w-md overflow-hidden min-h-full rounded-2xl shadow-lg bg-white ">
       <Link href={"/" + pageurl}>
         <div className="cursor-pointer">
           <img
             className="aspect-video w-full object-cover"
-            src="/assets/images/bg/card.png"
+            src={imgSrc}
             alt="blog card background"
           />
         </div>

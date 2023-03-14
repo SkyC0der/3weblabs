@@ -211,7 +211,7 @@ const Home: NextPage = () => {
             className="row-span-2 border border-white text-center flex justify-center items-center font-semibold text-4xl lg:text-2xl sm:text-sm "
             onClick={() => push("/innovation")}
           >
-            Reasearch & Innovation
+            Research & Innovation
           </div>
         </div>
       </div>

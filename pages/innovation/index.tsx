@@ -53,7 +53,7 @@ export default function ForDevelopers() {
       />
 
       <div className="container mx-auto px-5 mt-10 xl:px-20 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4  sm:px-4 sm:py-2">
-        <div className="flex lg:flex-col justify-between xl:items-center ">
+        {/* <div className="flex lg:flex-col justify-between xl:items-center ">
           <div className="lg:w-full w-5/12">
             <h1 className="text-4xl leading-normal w-10/12  lg:text-3xl font-semibold sm:text-3xl my-3 lg:pt-0 lg:pb-4 pt-6">
               Unlock Next Level Innovation 🚀
@@ -85,6 +85,40 @@ export default function ForDevelopers() {
             </div>
             <img className="w-full" src="/assets/images/bg/hero.svg" alt="" />
           </div>
+        </div> */}
+
+        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
+          {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              Announcing our next round of funding.{" "}
+              <a href="#" className="font-semibold text-indigo-600">
+                <span className="absolute inset-0" aria-hidden="true"></span>
+                Read more <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div> */}
+          <div className="text-center">
+            <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+              Unlock Next Level Innovation 🚀
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Different ideas require specific skills and resources. It could be
+              technical, informational or human resource deficit. Let's help you
+              unlock innovation without limits.
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Do you <strong>manage a hub</strong> in Africa?
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-indigo-600 px-16 py-2 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Join Us
+              </a>
+              
+            </div>
+          </div>
         </div>
       </div>
       {/* px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
@@ -96,7 +130,7 @@ export default function ForDevelopers() {
           <p className="text-center mx-auto my-7 font-normal pt-8 max-w-3xl">
             The best ideas must be combined with the right information and the
             best teams if they will ever become usable solutions for everyday
-            people..
+            people.
           </p>
           <div className="bg-[#182F43] absolute w-32 h-1 top-20 left-[45%] lg:left-28"></div>
         </div>
@@ -105,34 +139,35 @@ export default function ForDevelopers() {
             imgSrc={"/assets/images/bg/idea-testing.webp"}
             title={"Ideas Testing Lab"}
             content={
-              "Ideas are the building blocks of our society and sometimes it can be daunting figuring out a concept. Tap in experts to help you idea easily and test your ideas before building and shipping."
+              "Ideas are the building block of every product. Tap in our experts to help you to easily test & vet your ideas before building and shipping."
             }
-            pageurl={"MVP Lab"}
+            pageurl={"ideas-lab"}
           />
+          <LabCard
+            imgSrc={"/assets/images/bg/mvp-lab.webp"}
+            title={"MVP Lab"}
+            content={
+              "A Minimum Viable Product (MVP) is the first proof of concept. We make it easy to develop an MVP and hit the road running towards reaching your users."
+            }
+            pageurl={"mvp-lab"}
+          />
+          <LabCard
+            imgSrc={"/assets/images/bg/blockchain.webp"}
+            title={"Blockchain Lab"}
+            content={
+              "Work with our team to build blockchain solutions, interact with our products or augment your team with blockchain developers from Africa."
+            }
+            btnText="Explore"
+            pageurl={"blockchain-lab"}
+          />
+
           <LabCard
             imgSrc={"/assets/images/bg/social-impact.webp"}
             title={"Social Impact Lab"}
             content={
               "We are building solutions that drive social impact with an objective to empower, increase access to solve problems in developing nations."
             }
-            pageurl={"100daysofopenbuild"}
-          />
-          <LabCard
-            imgSrc={"/assets/images/bg/blockchain.webp"}
-            title={"Blockchain Hubs"}
-            content={
-              "Work with our team to build blockchain solutions, interact with our products or augment your team with blockchain developers from Africa."
-            }
-            btnText="Discover Hubs"
-            pageurl={"100daysofopenbuild"}
-          />
-          <LabCard
-            imgSrc={"/assets/images/bg/mvp-lab.webp"}
-            title={"MVP Lab"}
-            content={
-              "A Minimum Viable Product (MVP) is the first proof of work on a concept after ideation. We make it easy to develop an MVP and hit the road running towards getting investments and building."
-            }
-            pageurl={"100daysofopenbuild"}
+            pageurl={"social-impact"}
           />
         </div>
         {/* <div className="text-center mx-auto mt-12 flex justify-center">

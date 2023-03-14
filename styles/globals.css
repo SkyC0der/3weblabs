@@ -34,12 +34,35 @@
     font-weight:700;
     src: url("/assets/fonts/wavehaus/Wavehaus-158ExtraBold.otf") format("opentype");
 }
+@font-face {
+  font-family: Gilroy;
+  font-weight:700;
+  src: url("/assets/fonts/Gilroy/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight:600;
+  src: url("/assets/fonts/Gilroy/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight:500;
+  src: url("/assets/fonts/Gilroy/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight:400;
+  src: url("/assets/fonts/Gilroy/Gilroy-Light.otf") format("opentype");
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Gilroy', sans-serif;
   font-weight:400;
   color: #182F43;
 }

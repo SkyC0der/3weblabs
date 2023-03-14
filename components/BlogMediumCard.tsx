@@ -5,18 +5,19 @@ type BlogCardType = {
   title?: string;
   content?: string;
   className?: string;
+  imgSrc?: string;
   url?: string
 };
 const BlogMediumCard = (props: BlogCardType) => {
-  const { title, content, url } = props;
+  const { title, content, url, imgSrc } = props;
 //   console.log("/"+ pageurl)
   return (
-    <div className="mx-auto max-w-md overflow-hidden  rounded-2xl shadow-lg bg-white min-h-full">
+    <div className="mx-auto max-w-md overflow-hidden rounded-2xl shadow-lg bg-white min-h-full">
       <a href={url}>
         <div className="cursor-pointer">
           <img
             className="aspect-video w-full object-cover"
-            src="/assets/images/bg/card.png"
+            src={imgSrc}
             alt="blog card background"
           />
         </div>

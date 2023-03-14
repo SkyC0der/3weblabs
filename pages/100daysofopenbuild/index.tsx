@@ -9,7 +9,7 @@ export default function Card() {
   return (
     <div>
       <div className="py-12 bg-[url('/assets/images/LTO.png')] bg-no-repeat bg-cover bg-center">
-        <h2 className="container text-center mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl my-2">
+        <h2 className="container text-center mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl ">
           100 Days Of OpenBuilD
         </h2>
         <div className="text-white text-center">

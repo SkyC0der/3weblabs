@@ -76,6 +76,7 @@ export default function BlogPosts() {
           
           */}
           <BlogMediumCard
+          imgSrc={"/assets/images/bg/ethereum.webp"}
             title={"Ethereum Merge Simplified"}
             content={
               "Blockchain technology is a next-generation tool powered by distributed computing. For some persons, the name evokes the genesis of decentralized power structures, a revolution of the global financial system and a redefinition of ownership in the digital space."
@@ -83,6 +84,7 @@ export default function BlogPosts() {
             url={"https://medium.com/3weblabs/ethereum-merge-simplified-efca25efd89a"}
           />
           <BlogMediumCard
+                    imgSrc={"/assets/images/bg/community.webp"}
             title={"Notes on Communities: How to make the most out of communities"}
             content={
               "Communities are very powerful tools. In fact, when people say ideas change the world, the actual truth is that ideas change the world because it gathers the community around itself and when people believe in a course so much they begin to channel their collective energy."

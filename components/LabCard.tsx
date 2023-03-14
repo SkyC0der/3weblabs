@@ -33,8 +33,8 @@ const LabCard = (props: LabCardType) => {
         </p>
         </div>
         <div className="text-center mx-auto mt-4 flex justify-center">
-          <Link href="/innovation">
-            <span className="bg-blue-500 text-white  font-semibold border-b  bg-primary text-white mx-2 hover:bg-blue-800 ease-in cursor-pointer transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center">
+          <Link href={"/" + pageurl}>
+            <span className="bg-blue-500  border-b  bg-primary text-white mx-2 hover:bg-blue-800 ease-in cursor-pointer transition-all rounded-l-lg rounded-r-lg p-3 font-normal flex items-center justify-center">
               {btnText}
             </span>
           </Link>

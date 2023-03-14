@@ -104,6 +104,7 @@ export default function Onboarding() {
         </div>
         <div className="grid grid-cols-3 md:grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-centermt-12 my-8 gap-8 justify-between items-center">
           <BlogCard
+          imgSrc={"/assets/images/bg/openbuild.webp"}  
             title={"100 Days of OpenBuilD"}
             content={
               "Openbuild is powered by 3weblabs with the goal to empower builders with the tools, resources and network to build on the continent. The goal is simple: to empower over a 100,000+ talents to build and contribute to Africa."
@@ -111,6 +112,7 @@ export default function Onboarding() {
             pageurl={"100daysofopenbuild"}
           />
           <BlogCard
+          imgSrc={"/assets/images/bg/sdg.webp"}
             title={"OpenBuilD for SDGs"}
             content={
               "Join us to build impactful projects that would help us achieve the Sustainable Development Goals (SDGs)."
