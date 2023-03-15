@@ -98,13 +98,13 @@ export default function ForDevelopers() {
             </div>
           </div> */}
           <div className="absolute top-0 rotate-12 left-[-30%] lg:w-20 lg:left-0 z-[-6] w-48 h-24">
-            <img className="w-full" src="/assets/images/illustrations/ill2.jpg" alt="" />
+            <img className="w-full" src="/assets/images/illustrations/ill2.png" alt="" />
           </div>
           <div className="absolute top-0 rotate-12 right-[-30%] z-[-6] lg:w-20 lg:right-[10%] lg:top-[15%] w-48 h-24">
-            <img className="w-full" src="/assets/images/illustrations/illustration.jpg" alt="" />
+            <img className="w-full" src="/assets/images/illustrations/ill1.png" alt="" />
           </div>
           <div  className="absolute bottom-0 rotate-90 right-[-10%] z-[-6] w-40  h-24 lg:left-[-10%] lg:w-36 lg:bottom-[10%]">
-            <img className="w-full" src="/assets/images/illustrations/ill3.jpg" alt="" />
+            <img className="w-full" src="/assets/images/illustrations/ill3.png" alt="" />
           </div>
           <div className="text-center">
             <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl">
