@@ -19,24 +19,21 @@ const IdeasLab = () => {
         </Link>
 
         <p className="my-8 font-normal">
-          A community for developers, designers, technical writers and every
-          kind of builder in the tech space. The problems facing Africa are
-          unique and particularly interesting. Africa is a unique continent with
-          over 1.4 Billion people most of whom are young people. We can all
-          agree that there has also been increasing interest in Africa of late.
+          Ideas are the building block of every product. Tap in our experts to
+          help you to easily test & vet your ideas before building and shipping
+          your product.
         </p>
         <p className="my-8 font-normal">
-        In the wake of all these, we still have very few Africans learning and contributing to Africa. We want to empower a generation to build for Africa and solve problems for the rest of the globe. Nobody understands the unique opportunities and challenges in Africa like those who have lived and worked in it. Does this mean you cannot participate if you are not African? not at all.
-
-
+        Most times what you need is not an MVP but enough technical detail and consulting to ensure your idea is full proof. This means knocking your ideas off experts who would advice you, help you document use cases and possibilities in your idea. This helps you to understand the market and opportunities you can leverage to enter the market.
         </p>
         <p className="my-8 font-normal">
-        The goal is simple: to empower over a <strong>100,000+</strong> talents to build and contribute to Africa.
+        After this you can choose to go on to developing an MVP or prototype for your idea when you feel confident and ready to kick-off.
 
         </p>
         <p className="my-8 font-normal">
-        Welcome to our Idea Testing Lab, let’s build!!!
+        Let’s talk about that idea and help you polish it.
         </p>
+
 
         <div className="text-center mx-auto mt-12 flex justify-center">
           <a

@@ -6,7 +6,7 @@ const IdeasLab = () => {
     <div>
       <div className="py-12 bg-[url('/assets/images/Background.png')]">
         <h2 className="container mx-auto my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 text-4xl font-semibold text-white sm:text-2xl my-2">
-         MVP Lab
+          MVP Lab
         </h2>
       </div>
       {/* my-9 px-5 xl:px-28 lg:px-20 3xl:px-40 xl:py-4 lg:py-4 md:py-4 3xl:py-4 */}
@@ -19,23 +19,17 @@ const IdeasLab = () => {
         </Link>
 
         <p className="my-8 font-normal">
-          A community for developers, designers, technical writers and every
-          kind of builder in the tech space. The problems facing Africa are
-          unique and particularly interesting. Africa is a unique continent with
-          over 1.4 Billion people most of whom are young people. We can all
-          agree that there has also been increasing interest in Africa of late.
+          A Minimum Viable Product (MVP) is the first proof of concept. We make
+          it easy to develop an MVP and hit the road running towards reaching
+          your users. Think of it as a bare-bone working concept for your idea.
+          This allows you pitch a prototype to investors, raise funds and
+          utilize the resource to scale.
         </p>
         <p className="my-8 font-normal">
-        In the wake of all these, we still have very few Africans learning and contributing to Africa. We want to empower a generation to build for Africa and solve problems for the rest of the globe. Nobody understands the unique opportunities and challenges in Africa like those who have lived and worked in it. Does this mean you cannot participate if you are not African? not at all.
-
-
-        </p>
-        <p className="my-8 font-normal">
-        The goal is simple: to empower over a <strong>100,000+</strong> talents to build and contribute to Africa.
-
-        </p>
-        <p className="my-8 font-normal">
-        Welcome to our MVP Lab, let’s build!!!
+          Our engineering team will work with you to define technical needs,
+          resource requirements and tooling requirements to get the MVP off the
+          ground. We do not only stop there we also give you an idea of a
+          roadmap for when you are ready to make your MVP more robust.
         </p>
 
         <div className="text-center mx-auto mt-12 flex justify-center">
@@ -48,10 +42,7 @@ const IdeasLab = () => {
             Join Us
           </a>
         </div>
-        
       </div>
-
-     
     </div>
   );
 };

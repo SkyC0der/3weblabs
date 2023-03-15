@@ -143,9 +143,9 @@ export default function ForDevelopers() {
           </p>
           <div className="bg-[#182F43] absolute w-32 h-1 top-20 left-[45%] lg:left-28"></div>
         </div>
-        <div className="grid grid-cols-4 md:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
+        <div className="grid grid-cols-4 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-2 mx-auto place-items-center items-center  my-8 gap-8 justify-between items-center">
           <LabCard
-            imgSrc={"/assets/images/bg/idea-testing.webp"}
+            imgSrc={"/assets/images/bg/ideas.webp"}
             title={"Ideas Testing Lab"}
             content={
               "Ideas are the building block of every product. Tap in our experts to help you to easily test & vet your ideas before building and shipping your product."
